@@ -16,8 +16,8 @@
  ***
  ****************************************************************************
  ****************************************************************************/
-#ifndef _UAPI__LINUX_KEYBOARD_H
-#define _UAPI__LINUX_KEYBOARD_H
+#ifndef __LINUX_KEYBOARD_H
+#define __LINUX_KEYBOARD_H
 #include <linux/wait.h>
 #define KG_SHIFT 0
 #define KG_CTRL 2

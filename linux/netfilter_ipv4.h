@@ -16,8 +16,8 @@
  ***
  ****************************************************************************
  ****************************************************************************/
-#ifndef _UAPI__LINUX_IP_NETFILTER_H
-#define _UAPI__LINUX_IP_NETFILTER_H
+#ifndef __LINUX_IP_NETFILTER_H
+#define __LINUX_IP_NETFILTER_H
 #include <linux/netfilter.h>
 #include <limits.h>
 #define NFC_IP_SRC 0x0001

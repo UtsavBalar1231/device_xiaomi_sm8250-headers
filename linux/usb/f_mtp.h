@@ -16,8 +16,8 @@
  ***
  ****************************************************************************
  ****************************************************************************/
-#ifndef _UAPI_LINUX_USB_F_MTP_H
-#define _UAPI_LINUX_USB_F_MTP_H
+#ifndef _LINUX_USB_F_MTP_H
+#define _LINUX_USB_F_MTP_H
 #include <linux/ioctl.h>
 #include <linux/types.h>
 struct mtp_file_range {

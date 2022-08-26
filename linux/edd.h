@@ -16,8 +16,8 @@
  ***
  ****************************************************************************
  ****************************************************************************/
-#ifndef _UAPI_LINUX_EDD_H
-#define _UAPI_LINUX_EDD_H
+#ifndef _LINUX_EDD_H
+#define _LINUX_EDD_H
 #include <linux/types.h>
 #define EDDNR 0x1e9
 #define EDDBUF 0xd00

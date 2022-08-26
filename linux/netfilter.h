@@ -16,10 +16,9 @@
  ***
  ****************************************************************************
  ****************************************************************************/
-#ifndef _UAPI__LINUX_NETFILTER_H
-#define _UAPI__LINUX_NETFILTER_H
+#ifndef __LINUX_NETFILTER_H
+#define __LINUX_NETFILTER_H
 #include <linux/types.h>
-#include <linux/compiler.h>
 #include <linux/in.h>
 #include <linux/in6.h>
 #define NF_DROP 0

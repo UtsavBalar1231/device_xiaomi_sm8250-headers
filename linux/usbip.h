@@ -16,8 +16,8 @@
  ***
  ****************************************************************************
  ****************************************************************************/
-#ifndef _UAPI_LINUX_USBIP_H
-#define _UAPI_LINUX_USBIP_H
+#ifndef _LINUX_USBIP_H
+#define _LINUX_USBIP_H
 enum usbip_device_status {
   SDEV_ST_AVAILABLE = 0x01,
   SDEV_ST_USED,

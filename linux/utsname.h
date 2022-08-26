@@ -16,8 +16,8 @@
  ***
  ****************************************************************************
  ****************************************************************************/
-#ifndef _UAPI_LINUX_UTSNAME_H
-#define _UAPI_LINUX_UTSNAME_H
+#ifndef _LINUX_UTSNAME_H
+#define _LINUX_UTSNAME_H
 #define __OLD_UTS_LEN 8
 struct oldold_utsname {
   char sysname[9];

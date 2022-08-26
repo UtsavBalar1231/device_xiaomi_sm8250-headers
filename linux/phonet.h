@@ -16,8 +16,8 @@
  ***
  ****************************************************************************
  ****************************************************************************/
-#ifndef _UAPILINUX_PHONET_H
-#define _UAPILINUX_PHONET_H
+#ifndef LINUX_PHONET_H
+#define LINUX_PHONET_H
 #include <linux/types.h>
 #include <linux/socket.h>
 #define PN_PROTO_TRANSPORT 0

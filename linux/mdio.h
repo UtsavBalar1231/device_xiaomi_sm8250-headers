@@ -16,8 +16,8 @@
  ***
  ****************************************************************************
  ****************************************************************************/
-#ifndef _UAPI__LINUX_MDIO_H__
-#define _UAPI__LINUX_MDIO_H__
+#ifndef __LINUX_MDIO_H__
+#define __LINUX_MDIO_H__
 #include <linux/types.h>
 #include <linux/mii.h>
 #define MDIO_MMD_PMAPMD 1

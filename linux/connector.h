@@ -16,8 +16,8 @@
  ***
  ****************************************************************************
  ****************************************************************************/
-#ifndef _UAPI__CONNECTOR_H
-#define _UAPI__CONNECTOR_H
+#ifndef __CONNECTOR_H
+#define __CONNECTOR_H
 #include <linux/types.h>
 #define CN_IDX_PROC 0x1
 #define CN_VAL_PROC 0x1

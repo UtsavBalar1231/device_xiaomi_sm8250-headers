@@ -16,8 +16,8 @@
  ***
  ****************************************************************************
  ****************************************************************************/
-#ifndef _UAPI_LINUX_F2FS_H
-#define _UAPI_LINUX_F2FS_H
+#ifndef _LINUX_F2FS_H
+#define _LINUX_F2FS_H
 #include <linux/types.h>
 #include <linux/ioctl.h>
 #define F2FS_IOCTL_MAGIC 0xf5

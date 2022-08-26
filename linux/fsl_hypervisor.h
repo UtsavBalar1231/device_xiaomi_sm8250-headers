@@ -16,8 +16,8 @@
  ***
  ****************************************************************************
  ****************************************************************************/
-#ifndef _UAPIFSL_HYPERVISOR_H
-#define _UAPIFSL_HYPERVISOR_H
+#ifndef FSL_HYPERVISOR_H
+#define FSL_HYPERVISOR_H
 #include <linux/types.h>
 struct fsl_hv_ioctl_restart {
   __u32 ret;

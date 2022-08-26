@@ -16,8 +16,8 @@
  ***
  ****************************************************************************
  ****************************************************************************/
-#ifndef _UAPI_MSM_NPU_H_
-#define _UAPI_MSM_NPU_H_
+#ifndef _MSM_NPU_H_
+#define _MSM_NPU_H_
 #include <linux/types.h>
 #define MSM_NPU_IOCTL_MAGIC 'n'
 #define MSM_NPU_GET_INFO _IOWR(MSM_NPU_IOCTL_MAGIC, 1, struct msm_npu_get_info_ioctl)

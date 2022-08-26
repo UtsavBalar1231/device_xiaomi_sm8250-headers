@@ -16,8 +16,8 @@
  ***
  ****************************************************************************
  ****************************************************************************/
-#ifndef _UAPI_LINUX_VIRTIO_CONFIG_H
-#define _UAPI_LINUX_VIRTIO_CONFIG_H
+#ifndef _LINUX_VIRTIO_CONFIG_H
+#define _LINUX_VIRTIO_CONFIG_H
 #include <linux/types.h>
 #define VIRTIO_CONFIG_S_ACKNOWLEDGE 1
 #define VIRTIO_CONFIG_S_DRIVER 2

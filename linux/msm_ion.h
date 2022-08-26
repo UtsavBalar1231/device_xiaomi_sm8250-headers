@@ -16,8 +16,8 @@
  ***
  ****************************************************************************
  ****************************************************************************/
-#ifndef _UAPI_LINUX_MSM_ION_H
-#define _UAPI_LINUX_MSM_ION_H
+#ifndef _LINUX_MSM_ION_H
+#define _LINUX_MSM_ION_H
 #include <linux/types.h>
 #define ION_BIT(nr) (1U << (nr))
 #define TARGET_ION_ABI_VERSION 2

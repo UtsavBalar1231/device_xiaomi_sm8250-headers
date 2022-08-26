@@ -16,8 +16,8 @@
  ***
  ****************************************************************************
  ****************************************************************************/
-#ifndef _UAPI_AGP_H
-#define _UAPI_AGP_H
+#ifndef _AGP_H
+#define _AGP_H
 #define AGPIOC_BASE 'A'
 #define AGPIOC_INFO _IOR(AGPIOC_BASE, 0, struct agp_info *)
 #define AGPIOC_ACQUIRE _IO(AGPIOC_BASE, 1)

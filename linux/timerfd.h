@@ -16,8 +16,8 @@
  ***
  ****************************************************************************
  ****************************************************************************/
-#ifndef _UAPI_LINUX_TIMERFD_H
-#define _UAPI_LINUX_TIMERFD_H
+#ifndef _LINUX_TIMERFD_H
+#define _LINUX_TIMERFD_H
 #include <linux/types.h>
 #include <linux/fcntl.h>
 #include <linux/ioctl.h>

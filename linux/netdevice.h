@@ -16,8 +16,8 @@
  ***
  ****************************************************************************
  ****************************************************************************/
-#ifndef _UAPI_LINUX_NETDEVICE_H
-#define _UAPI_LINUX_NETDEVICE_H
+#ifndef _LINUX_NETDEVICE_H
+#define _LINUX_NETDEVICE_H
 #include <linux/if.h>
 #include <linux/if_ether.h>
 #include <linux/if_packet.h>

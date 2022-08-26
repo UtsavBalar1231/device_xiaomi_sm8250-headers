@@ -16,8 +16,8 @@
  ***
  ****************************************************************************
  ****************************************************************************/
-#ifndef _UAPI__LINUX_USB_CH9_H
-#define _UAPI__LINUX_USB_CH9_H
+#ifndef __LINUX_USB_CH9_H
+#define __LINUX_USB_CH9_H
 #include <linux/types.h>
 #include <asm/byteorder.h>
 #define USB_DIR_OUT 0

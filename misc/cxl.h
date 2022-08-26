@@ -16,8 +16,8 @@
  ***
  ****************************************************************************
  ****************************************************************************/
-#ifndef _UAPI_MISC_CXL_H
-#define _UAPI_MISC_CXL_H
+#ifndef _MISC_CXL_H
+#define _MISC_CXL_H
 #include <linux/types.h>
 #include <linux/ioctl.h>
 struct cxl_ioctl_start_work {

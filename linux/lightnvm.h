@@ -16,8 +16,8 @@
  ***
  ****************************************************************************
  ****************************************************************************/
-#ifndef _UAPI_LINUX_LIGHTNVM_H
-#define _UAPI_LINUX_LIGHTNVM_H
+#ifndef _LINUX_LIGHTNVM_H
+#define _LINUX_LIGHTNVM_H
 #include <stdio.h>
 #include <sys/ioctl.h>
 #define DISK_NAME_LEN 32

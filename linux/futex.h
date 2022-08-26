@@ -16,9 +16,8 @@
  ***
  ****************************************************************************
  ****************************************************************************/
-#ifndef _UAPI_LINUX_FUTEX_H
-#define _UAPI_LINUX_FUTEX_H
-#include <linux/compiler.h>
+#ifndef _LINUX_FUTEX_H
+#define _LINUX_FUTEX_H
 #include <linux/types.h>
 #define FUTEX_WAIT 0
 #define FUTEX_WAKE 1
@@ -49,12 +48,12 @@
 #define FUTEX_WAIT_REQUEUE_PI_PRIVATE (FUTEX_WAIT_REQUEUE_PI | FUTEX_PRIVATE_FLAG)
 #define FUTEX_CMP_REQUEUE_PI_PRIVATE (FUTEX_CMP_REQUEUE_PI | FUTEX_PRIVATE_FLAG)
 struct robust_list {
-  struct robust_list __user * next;
+  struct robust_list * next;
 };
 struct robust_list_head {
   struct robust_list list;
   long futex_offset;
-  struct robust_list __user * list_op_pending;
+  struct robust_list * list_op_pending;
 };
 #define FUTEX_WAITERS 0x80000000
 #define FUTEX_OWNER_DIED 0x40000000

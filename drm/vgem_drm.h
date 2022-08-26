@@ -16,8 +16,8 @@
  ***
  ****************************************************************************
  ****************************************************************************/
-#ifndef _UAPI_VGEM_DRM_H_
-#define _UAPI_VGEM_DRM_H_
+#ifndef _VGEM_DRM_H_
+#define _VGEM_DRM_H_
 #include "drm.h"
 #ifdef __cplusplus
 extern "C" {

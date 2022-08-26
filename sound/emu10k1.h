@@ -16,8 +16,8 @@
  ***
  ****************************************************************************
  ****************************************************************************/
-#ifndef _UAPI__SOUND_EMU10K1_H
-#define _UAPI__SOUND_EMU10K1_H
+#ifndef __SOUND_EMU10K1_H
+#define __SOUND_EMU10K1_H
 #include <linux/types.h>
 #include <sound/asound.h>
 #define EMU10K1_CARD_CREATIVE 0x00000000
@@ -257,19 +257,19 @@ struct snd_emu10k1_fx8010_control_old_gpr {
 struct snd_emu10k1_fx8010_code {
   char name[128];
   __EMU10K1_DECLARE_BITMAP(gpr_valid, 0x200);
-  __u32 __user * gpr_map;
+  __u32 * gpr_map;
   unsigned int gpr_add_control_count;
-  struct snd_emu10k1_fx8010_control_gpr __user * gpr_add_controls;
+  struct snd_emu10k1_fx8010_control_gpr * gpr_add_controls;
   unsigned int gpr_del_control_count;
-  struct snd_ctl_elem_id __user * gpr_del_controls;
+  struct snd_ctl_elem_id * gpr_del_controls;
   unsigned int gpr_list_control_count;
   unsigned int gpr_list_control_total;
-  struct snd_emu10k1_fx8010_control_gpr __user * gpr_list_controls;
+  struct snd_emu10k1_fx8010_control_gpr * gpr_list_controls;
   __EMU10K1_DECLARE_BITMAP(tram_valid, 0x100);
-  __u32 __user * tram_data_map;
-  __u32 __user * tram_addr_map;
+  __u32 * tram_data_map;
+  __u32 * tram_addr_map;
   __EMU10K1_DECLARE_BITMAP(code_valid, 1024);
-  __u32 __user * code;
+  __u32 * code;
 };
 struct snd_emu10k1_fx8010_tram {
   unsigned int address;

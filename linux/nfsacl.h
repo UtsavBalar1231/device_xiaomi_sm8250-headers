@@ -16,8 +16,8 @@
  ***
  ****************************************************************************
  ****************************************************************************/
-#ifndef _UAPI__LINUX_NFSACL_H
-#define _UAPI__LINUX_NFSACL_H
+#ifndef __LINUX_NFSACL_H
+#define __LINUX_NFSACL_H
 #define NFS_ACL_PROGRAM 100227
 #define ACLPROC2_GETACL 1
 #define ACLPROC2_SETACL 2

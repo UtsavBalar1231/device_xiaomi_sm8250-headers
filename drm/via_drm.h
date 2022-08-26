@@ -28,7 +28,7 @@ extern "C" {
 #define VIA_NR_XVMC_PORTS 10
 #define VIA_NR_XVMC_LOCKS 5
 #define VIA_MAX_CACHELINE_SIZE 64
-#define XVMCLOCKPTR(saPriv,lockNo) ((volatile struct drm_hw_lock *) (((((unsigned long) (saPriv)->XvMCLockArea) + (VIA_MAX_CACHELINE_SIZE - 1)) & ~(VIA_MAX_CACHELINE_SIZE - 1)) + VIA_MAX_CACHELINE_SIZE * (lockNo)))
+#define XVMCLOCKPTR(saPriv,lockNo) ((__volatile__ struct drm_hw_lock *) (((((unsigned long) (saPriv)->XvMCLockArea) + (VIA_MAX_CACHELINE_SIZE - 1)) & ~(VIA_MAX_CACHELINE_SIZE - 1)) + VIA_MAX_CACHELINE_SIZE * (lockNo)))
 #define VIA_NR_TEX_REGIONS 64
 #define VIA_LOG_MIN_TEX_REGION_SIZE 16
 #endif
@@ -125,7 +125,7 @@ typedef struct _drm_via_dma_init {
   unsigned long reg_pause_addr;
 } drm_via_dma_init_t;
 typedef struct _drm_via_cmdbuffer {
-  char __user * buf;
+  char * buf;
   unsigned long size;
 } drm_via_cmdbuffer_t;
 typedef struct _drm_via_tex_region {

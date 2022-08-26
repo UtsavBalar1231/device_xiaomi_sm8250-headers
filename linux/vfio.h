@@ -16,8 +16,8 @@
  ***
  ****************************************************************************
  ****************************************************************************/
-#ifndef _UAPIVFIO_H
-#define _UAPIVFIO_H
+#ifndef VFIO_H
+#define VFIO_H
 #include <linux/types.h>
 #include <linux/ioctl.h>
 #define VFIO_API_VERSION 0

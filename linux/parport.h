@@ -16,8 +16,8 @@
  ***
  ****************************************************************************
  ****************************************************************************/
-#ifndef _UAPI_PARPORT_H_
-#define _UAPI_PARPORT_H_
+#ifndef _PARPORT_H_
+#define _PARPORT_H_
 #define PARPORT_MAX 16
 #define PARPORT_IRQ_NONE - 1
 #define PARPORT_DMA_NONE - 1

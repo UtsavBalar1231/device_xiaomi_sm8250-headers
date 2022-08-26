@@ -19,7 +19,6 @@
 #ifndef _LINUX_ROUTE_H
 #define _LINUX_ROUTE_H
 #include <linux/if.h>
-#include <linux/compiler.h>
 struct rtentry {
   unsigned long rt_pad1;
   struct sockaddr rt_dst;
@@ -30,7 +29,7 @@ struct rtentry {
   unsigned long rt_pad3;
   void * rt_pad4;
   short rt_metric;
-  char __user * rt_dev;
+  char * rt_dev;
   unsigned long rt_mtu;
 #define rt_mss rt_mtu
   unsigned long rt_window;

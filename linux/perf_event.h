@@ -16,8 +16,8 @@
  ***
  ****************************************************************************
  ****************************************************************************/
-#ifndef _UAPI_LINUX_PERF_EVENT_H
-#define _UAPI_LINUX_PERF_EVENT_H
+#ifndef _LINUX_PERF_EVENT_H
+#define _LINUX_PERF_EVENT_H
 #include <linux/types.h>
 #include <linux/ioctl.h>
 #include <asm/byteorder.h>

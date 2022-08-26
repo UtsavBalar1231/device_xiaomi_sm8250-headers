@@ -16,8 +16,8 @@
  ***
  ****************************************************************************
  ****************************************************************************/
-#ifndef _UAPI_LINUX_SIGNALFD_H
-#define _UAPI_LINUX_SIGNALFD_H
+#ifndef _LINUX_SIGNALFD_H
+#define _LINUX_SIGNALFD_H
 #include <linux/types.h>
 #include <linux/fcntl.h>
 #define SFD_CLOEXEC O_CLOEXEC

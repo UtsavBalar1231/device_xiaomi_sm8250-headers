@@ -16,8 +16,8 @@
  ***
  ****************************************************************************
  ****************************************************************************/
-#ifndef _UAPI_LINUX_PERSONALITY_H
-#define _UAPI_LINUX_PERSONALITY_H
+#ifndef _LINUX_PERSONALITY_H
+#define _LINUX_PERSONALITY_H
 enum {
   UNAME26 = 0x0020000,
   ADDR_NO_RANDOMIZE = 0x0040000,

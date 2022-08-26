@@ -16,8 +16,8 @@
  ***
  ****************************************************************************
  ****************************************************************************/
-#ifndef _UAPI_LINUX_USB_F_ACCESSORY_H
-#define _UAPI_LINUX_USB_F_ACCESSORY_H
+#ifndef _LINUX_USB_F_ACCESSORY_H
+#define _LINUX_USB_F_ACCESSORY_H
 #define USB_ACCESSORY_VENDOR_ID 0x18D1
 #define USB_ACCESSORY_PRODUCT_ID 0x2D00
 #define USB_ACCESSORY_ADB_PRODUCT_ID 0x2D01

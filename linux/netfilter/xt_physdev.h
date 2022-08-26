@@ -16,8 +16,8 @@
  ***
  ****************************************************************************
  ****************************************************************************/
-#ifndef _UAPI_XT_PHYSDEV_H
-#define _UAPI_XT_PHYSDEV_H
+#ifndef _XT_PHYSDEV_H
+#define _XT_PHYSDEV_H
 #include <linux/types.h>
 #include <linux/if.h>
 #define XT_PHYSDEV_OP_IN 0x01

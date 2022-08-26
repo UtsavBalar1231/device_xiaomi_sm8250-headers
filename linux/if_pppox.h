@@ -16,8 +16,8 @@
  ***
  ****************************************************************************
  ****************************************************************************/
-#ifndef _UAPI__LINUX_IF_PPPOX_H
-#define _UAPI__LINUX_IF_PPPOX_H
+#ifndef __LINUX_IF_PPPOX_H
+#define __LINUX_IF_PPPOX_H
 #include <linux/types.h>
 #include <asm/byteorder.h>
 #include <linux/socket.h>
@@ -51,27 +51,27 @@ struct sockaddr_pppox {
     struct pppoe_addr pppoe;
     struct pptp_addr pptp;
   } sa_addr;
-} __packed;
+} __attribute__((packed));
 struct sockaddr_pppol2tp {
   __kernel_sa_family_t sa_family;
   unsigned int sa_protocol;
   struct pppol2tp_addr pppol2tp;
-} __packed;
+} __attribute__((packed));
 struct sockaddr_pppol2tpin6 {
   __kernel_sa_family_t sa_family;
   unsigned int sa_protocol;
   struct pppol2tpin6_addr pppol2tp;
-} __packed;
+} __attribute__((packed));
 struct sockaddr_pppol2tpv3 {
   __kernel_sa_family_t sa_family;
   unsigned int sa_protocol;
   struct pppol2tpv3_addr pppol2tp;
-} __packed;
+} __attribute__((packed));
 struct sockaddr_pppol2tpv3in6 {
   __kernel_sa_family_t sa_family;
   unsigned int sa_protocol;
   struct pppol2tpv3in6_addr pppol2tp;
-} __packed;
+} __attribute__((packed));
 #define PPPOEIOCSFWD _IOW(0xB1, 0, size_t)
 #define PPPOEIOCDFWD _IO(0xB1, 1)
 #define PADI_CODE 0x09
@@ -108,6 +108,6 @@ struct pppoe_hdr {
   __be16 sid;
   __be16 length;
   struct pppoe_tag tag[0];
-} __packed;
+} __attribute__((packed));
 #define PPPOE_SES_HLEN 8
 #endif

@@ -16,8 +16,8 @@
  ***
  ****************************************************************************
  ****************************************************************************/
-#ifndef _UAPI_QCEDEV__H
-#define _UAPI_QCEDEV__H
+#ifndef _QCEDEV__H
+#define _QCEDEV__H
 #include <linux/types.h>
 #include <linux/ioctl.h>
 #include "fips_status.h"

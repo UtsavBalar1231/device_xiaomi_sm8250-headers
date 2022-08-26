@@ -16,8 +16,8 @@
  ***
  ****************************************************************************
  ****************************************************************************/
-#ifndef _UAPI_LINUX_NET_H
-#define _UAPI_LINUX_NET_H
+#ifndef _LINUX_NET_H
+#define _LINUX_NET_H
 #include <linux/socket.h>
 #include <asm/socket.h>
 #define NPROTO AF_MAX

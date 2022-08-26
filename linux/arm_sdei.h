@@ -16,8 +16,8 @@
  ***
  ****************************************************************************
  ****************************************************************************/
-#ifndef _UAPI_LINUX_ARM_SDEI_H
-#define _UAPI_LINUX_ARM_SDEI_H
+#ifndef _LINUX_ARM_SDEI_H
+#define _LINUX_ARM_SDEI_H
 #define SDEI_1_0_FN_BASE 0xC4000020
 #define SDEI_1_0_MASK 0xFFFFFFE0
 #define SDEI_1_0_FN(n) (SDEI_1_0_FN_BASE + (n))

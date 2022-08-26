@@ -16,8 +16,8 @@
  ***
  ****************************************************************************
  ****************************************************************************/
-#ifndef _UAPI_LINUX_SEG6_H
-#define _UAPI_LINUX_SEG6_H
+#ifndef _LINUX_SEG6_H
+#define _LINUX_SEG6_H
 #include <linux/types.h>
 #include <linux/in6.h>
 struct ipv6_sr_hdr {

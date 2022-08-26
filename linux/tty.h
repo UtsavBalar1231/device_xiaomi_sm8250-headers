@@ -16,8 +16,8 @@
  ***
  ****************************************************************************
  ****************************************************************************/
-#ifndef _UAPI_LINUX_TTY_H
-#define _UAPI_LINUX_TTY_H
+#ifndef _LINUX_TTY_H
+#define _LINUX_TTY_H
 #define NR_LDISCS 30
 #define N_TTY 0
 #define N_SLIP 1

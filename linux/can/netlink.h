@@ -16,8 +16,8 @@
  ***
  ****************************************************************************
  ****************************************************************************/
-#ifndef _UAPI_CAN_NETLINK_H
-#define _UAPI_CAN_NETLINK_H
+#ifndef _CAN_NETLINK_H
+#define _CAN_NETLINK_H
 #include <linux/types.h>
 struct can_bittiming {
   __u32 bitrate;

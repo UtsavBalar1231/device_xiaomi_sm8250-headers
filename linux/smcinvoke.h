@@ -16,8 +16,8 @@
  ***
  ****************************************************************************
  ****************************************************************************/
-#ifndef _UAPI_SMCINVOKE_H_
-#define _UAPI_SMCINVOKE_H_
+#ifndef _SMCINVOKE_H_
+#define _SMCINVOKE_H_
 #include <linux/types.h>
 #include <linux/ioctl.h>
 #define SMCINVOKE_USERSPACE_OBJ_NULL - 1

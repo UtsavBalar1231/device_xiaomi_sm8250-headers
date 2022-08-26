@@ -16,8 +16,8 @@
  ***
  ****************************************************************************
  ****************************************************************************/
-#ifndef _UAPI_LINUX_INOTIFY_H
-#define _UAPI_LINUX_INOTIFY_H
+#ifndef _LINUX_INOTIFY_H
+#define _LINUX_INOTIFY_H
 #include <linux/fcntl.h>
 #include <linux/types.h>
 struct inotify_event {

@@ -16,8 +16,8 @@
  ***
  ****************************************************************************
  ****************************************************************************/
-#ifndef _UAPI_LINUX_SCHED_H
-#define _UAPI_LINUX_SCHED_H
+#ifndef _LINUX_SCHED_H
+#define _LINUX_SCHED_H
 #define CSIGNAL 0x000000ff
 #define CLONE_VM 0x00000100
 #define CLONE_FS 0x00000200

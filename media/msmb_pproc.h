@@ -76,7 +76,7 @@ struct msm_cpp_frame_info_t {
   int src_fd;
   int dst_fd;
   struct timeval in_time, out_time;
-  void __user * cookie;
+  void * cookie;
   int32_t * status;
   int32_t duplicate_output;
   uint32_t duplicate_identity;
@@ -187,6 +187,6 @@ struct msm_camera_v4l2_ioctl_t {
   uint32_t id;
   size_t len;
   int32_t trans_code;
-  void __user * ioctl_ptr;
+  void * ioctl_ptr;
 };
 #endif

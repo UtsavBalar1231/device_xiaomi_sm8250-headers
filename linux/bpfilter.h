@@ -16,8 +16,8 @@
  ***
  ****************************************************************************
  ****************************************************************************/
-#ifndef _UAPI_LINUX_BPFILTER_H
-#define _UAPI_LINUX_BPFILTER_H
+#ifndef _LINUX_BPFILTER_H
+#define _LINUX_BPFILTER_H
 #include <linux/if.h>
 enum {
   BPFILTER_IPT_SO_SET_REPLACE = 64,

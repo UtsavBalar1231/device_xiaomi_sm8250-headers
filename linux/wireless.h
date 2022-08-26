@@ -16,8 +16,8 @@
  ***
  ****************************************************************************
  ****************************************************************************/
-#ifndef _UAPI_LINUX_WIRELESS_H
-#define _UAPI_LINUX_WIRELESS_H
+#ifndef _LINUX_WIRELESS_H
+#define _LINUX_WIRELESS_H
 #include <linux/types.h>
 #include <linux/socket.h>
 #include <linux/if.h>
@@ -264,7 +264,7 @@ struct iw_param {
   __u16 flags;
 };
 struct iw_point {
-  void __user * pointer;
+  void * pointer;
   __u16 length;
   __u16 flags;
 };

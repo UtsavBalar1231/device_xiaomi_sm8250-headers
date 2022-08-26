@@ -16,8 +16,8 @@
  ***
  ****************************************************************************
  ****************************************************************************/
-#ifndef _UAPISOUNDCARD_H
-#define _UAPISOUNDCARD_H
+#ifndef SOUNDCARD_H
+#define SOUNDCARD_H
 #define SOUND_VERSION 0x030802
 #define OPEN_SOUND_SYSTEM
 #include <linux/ioctl.h>

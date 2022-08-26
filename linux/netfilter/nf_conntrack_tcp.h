@@ -16,8 +16,8 @@
  ***
  ****************************************************************************
  ****************************************************************************/
-#ifndef _UAPI_NF_CONNTRACK_TCP_H
-#define _UAPI_NF_CONNTRACK_TCP_H
+#ifndef _NF_CONNTRACK_TCP_H
+#define _NF_CONNTRACK_TCP_H
 #include <linux/types.h>
 enum tcp_conntrack {
   TCP_CONNTRACK_NONE,

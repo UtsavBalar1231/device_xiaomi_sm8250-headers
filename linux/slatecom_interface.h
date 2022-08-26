@@ -34,12 +34,12 @@
 #define SLATECOM_SLATE_WEAR_UNLOAD 12
 #define EXCHANGE_CODE 'V'
 struct slate_ui_data {
-  __u64 __user write;
-  __u64 __user result;
+  __u64 write;
+  __u64 result;
   __u32 slate_address;
   __u32 cmd;
   __u32 num_of_words;
-  __u8 __user * buffer;
+  __u8 * buffer;
 };
 enum slate_event_type {
   SLATE_BEFORE_POWER_DOWN = 1,

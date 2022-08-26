@@ -16,8 +16,8 @@
  ***
  ****************************************************************************
  ****************************************************************************/
-#ifndef _UAPI_CAN_ERROR_H
-#define _UAPI_CAN_ERROR_H
+#ifndef _CAN_ERROR_H
+#define _CAN_ERROR_H
 #define CAN_ERR_DLC 8
 #define CAN_ERR_TX_TIMEOUT 0x00000001U
 #define CAN_ERR_LOSTARB 0x00000002U

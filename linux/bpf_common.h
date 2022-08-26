@@ -16,8 +16,8 @@
  ***
  ****************************************************************************
  ****************************************************************************/
-#ifndef _UAPI__LINUX_BPF_COMMON_H__
-#define _UAPI__LINUX_BPF_COMMON_H__
+#ifndef __LINUX_BPF_COMMON_H__
+#define __LINUX_BPF_COMMON_H__
 #define BPF_CLASS(code) ((code) & 0x07)
 #define BPF_LD 0x00
 #define BPF_LDX 0x01

@@ -16,8 +16,8 @@
  ***
  ****************************************************************************
  ****************************************************************************/
-#ifndef _UAPI__LINUX_BRIDGE_NETFILTER_H
-#define _UAPI__LINUX_BRIDGE_NETFILTER_H
+#ifndef __LINUX_BRIDGE_NETFILTER_H
+#define __LINUX_BRIDGE_NETFILTER_H
 #include <linux/in.h>
 #include <linux/netfilter.h>
 #include <linux/if_ether.h>

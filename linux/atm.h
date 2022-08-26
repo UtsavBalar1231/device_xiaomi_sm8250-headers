@@ -16,9 +16,8 @@
  ***
  ****************************************************************************
  ****************************************************************************/
-#ifndef _UAPI_LINUX_ATM_H
-#define _UAPI_LINUX_ATM_H
-#include <linux/compiler.h>
+#ifndef _LINUX_ATM_H
+#define _LINUX_ATM_H
 #include <linux/atmapi.h>
 #include <linux/atmsap.h>
 #include <linux/atmioc.h>
@@ -140,7 +139,7 @@ struct sockaddr_atmsvc {
 struct atmif_sioc {
   int number;
   int length;
-  void __user * arg;
+  void * arg;
 };
 typedef unsigned short atm_backend_t;
 #endif

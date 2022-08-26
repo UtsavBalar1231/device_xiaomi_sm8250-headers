@@ -59,5 +59,5 @@ struct qrtr_ctrl_pkt {
       __le32 node;
     } proc;
   };
-} __packed;
+} __attribute__((packed));
 #endif

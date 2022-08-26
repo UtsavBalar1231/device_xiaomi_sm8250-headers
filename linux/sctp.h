@@ -16,8 +16,8 @@
  ***
  ****************************************************************************
  ****************************************************************************/
-#ifndef _UAPI_SCTP_H
-#define _UAPI_SCTP_H
+#ifndef _SCTP_H
+#define _SCTP_H
 #include <linux/types.h>
 #include <linux/socket.h>
 typedef __s32 sctp_assoc_t;

@@ -16,8 +16,8 @@
  ***
  ****************************************************************************
  ****************************************************************************/
-#ifndef _UAPI_LINUX_IF_ARP_H
-#define _UAPI_LINUX_IF_ARP_H
+#ifndef _LINUX_IF_ARP_H
+#define _LINUX_IF_ARP_H
 #include <linux/netdevice.h>
 #define ARPHRD_NETROM 0
 #define ARPHRD_ETHER 1

@@ -16,8 +16,8 @@
  ***
  ****************************************************************************
  ****************************************************************************/
-#ifndef _UAPI_LINUX_RXRPC_H
-#define _UAPI_LINUX_RXRPC_H
+#ifndef _LINUX_RXRPC_H
+#define _LINUX_RXRPC_H
 #include <linux/types.h>
 #include <linux/in.h>
 #include <linux/in6.h>

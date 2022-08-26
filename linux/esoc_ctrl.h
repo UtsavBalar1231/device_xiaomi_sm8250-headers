@@ -16,8 +16,8 @@
  ***
  ****************************************************************************
  ****************************************************************************/
-#ifndef _UAPI_ESOC_CTRL_H_
-#define _UAPI_ESOC_CTRL_H_
+#ifndef _ESOC_CTRL_H_
+#define _ESOC_CTRL_H_
 #include <linux/types.h>
 enum esoc_client_hook_prio {
   ESOC_MHI_HOOK,

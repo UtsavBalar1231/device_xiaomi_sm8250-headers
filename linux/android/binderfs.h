@@ -16,8 +16,8 @@
  ***
  ****************************************************************************
  ****************************************************************************/
-#ifndef _UAPI_LINUX_BINDER_CTL_H
-#define _UAPI_LINUX_BINDER_CTL_H
+#ifndef _LINUX_BINDER_CTL_H
+#define _LINUX_BINDER_CTL_H
 #include <linux/android/binder.h>
 #include <linux/types.h>
 #include <linux/ioctl.h>

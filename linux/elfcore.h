@@ -16,8 +16,8 @@
  ***
  ****************************************************************************
  ****************************************************************************/
-#ifndef _UAPI_LINUX_ELFCORE_H
-#define _UAPI_LINUX_ELFCORE_H
+#ifndef _LINUX_ELFCORE_H
+#define _LINUX_ELFCORE_H
 #include <linux/types.h>
 #include <linux/signal.h>
 #include <linux/time.h>

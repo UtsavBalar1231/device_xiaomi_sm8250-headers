@@ -16,8 +16,8 @@
  ***
  ****************************************************************************
  ****************************************************************************/
-#ifndef _UAPI__CODA_PSDEV_H
-#define _UAPI__CODA_PSDEV_H
+#ifndef __CODA_PSDEV_H
+#define __CODA_PSDEV_H
 #include <linux/magic.h>
 #define CODA_PSDEV_MAJOR 67
 #define MAX_CODADEVS 5

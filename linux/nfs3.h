@@ -16,8 +16,8 @@
  ***
  ****************************************************************************
  ****************************************************************************/
-#ifndef _UAPI_LINUX_NFS3_H
-#define _UAPI_LINUX_NFS3_H
+#ifndef _LINUX_NFS3_H
+#define _LINUX_NFS3_H
 #define NFS3_PORT 2049
 #define NFS3_MAXDATA 32768
 #define NFS3_MAXPATHLEN PATH_MAX

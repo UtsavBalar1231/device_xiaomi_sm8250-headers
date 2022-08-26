@@ -16,8 +16,8 @@
  ***
  ****************************************************************************
  ****************************************************************************/
-#ifndef _UAPI_LINUX_JOYSTICK_H
-#define _UAPI_LINUX_JOYSTICK_H
+#ifndef _LINUX_JOYSTICK_H
+#define _LINUX_JOYSTICK_H
 #include <linux/types.h>
 #include <linux/input.h>
 #define JS_VERSION 0x020100

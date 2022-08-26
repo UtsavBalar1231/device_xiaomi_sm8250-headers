@@ -16,16 +16,15 @@
  ***
  ****************************************************************************
  ****************************************************************************/
-#ifndef _UAPI__LINUX_BLKPG_H
-#define _UAPI__LINUX_BLKPG_H
-#include <linux/compiler.h>
+#ifndef __LINUX_BLKPG_H
+#define __LINUX_BLKPG_H
 #include <linux/ioctl.h>
 #define BLKPG _IO(0x12, 105)
 struct blkpg_ioctl_arg {
   int op;
   int flags;
   int datalen;
-  void __user * data;
+  void * data;
 };
 #define BLKPG_ADD_PARTITION 1
 #define BLKPG_DEL_PARTITION 2

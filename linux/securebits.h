@@ -16,8 +16,8 @@
  ***
  ****************************************************************************
  ****************************************************************************/
-#ifndef _UAPI_LINUX_SECUREBITS_H
-#define _UAPI_LINUX_SECUREBITS_H
+#ifndef _LINUX_SECUREBITS_H
+#define _LINUX_SECUREBITS_H
 #define issecure_mask(X) (1 << (X))
 #define SECUREBITS_DEFAULT 0x00000000
 #define SECURE_NOROOT 0

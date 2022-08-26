@@ -16,8 +16,8 @@
  ***
  ****************************************************************************
  ****************************************************************************/
-#ifndef _UAPI_ASM_GENERIC_INT_L64_H
-#define _UAPI_ASM_GENERIC_INT_L64_H
+#ifndef _ASM_GENERIC_INT_L64_H
+#define _ASM_GENERIC_INT_L64_H
 #include <asm/bitsperlong.h>
 #ifndef __ASSEMBLY__
 typedef __signed__ char __s8;

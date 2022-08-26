@@ -16,10 +16,9 @@
  ***
  ****************************************************************************
  ****************************************************************************/
-#ifndef _UAPI_LINUX_SWAB_H
-#define _UAPI_LINUX_SWAB_H
+#ifndef _LINUX_SWAB_H
+#define _LINUX_SWAB_H
 #include <linux/types.h>
-#include <linux/compiler.h>
 #include <asm/bitsperlong.h>
 #include <asm/swab.h>
 #define ___constant_swab16(x) ((__u16) ((((__u16) (x) & (__u16) 0x00ffU) << 8) | (((__u16) (x) & (__u16) 0xff00U) >> 8)))
@@ -37,14 +36,14 @@
 #elif defined(__SWAB_64_THRU_32__)
 #else
 #endif
-static inline __attribute__((__const__)) __u32 __fswahw32(__u32 val) {
+static __inline__ __u32 __fswahw32(__u32 val) {
 #ifdef __arch_swahw32
   return __arch_swahw32(val);
 #else
   return ___constant_swahw32(val);
 #endif
 }
-static inline __attribute__((__const__)) __u32 __fswahb32(__u32 val) {
+static __inline__ __u32 __fswahb32(__u32 val) {
 #ifdef __arch_swahb32
   return __arch_swahb32(val);
 #else
@@ -80,21 +79,21 @@ static __always_inline __u64 __swab64p(const __u64 * p) {
   return __swab64(* p);
 #endif
 }
-static inline __u32 __swahw32p(const __u32 * p) {
+static __inline__ __u32 __swahw32p(const __u32 * p) {
 #ifdef __arch_swahw32p
   return __arch_swahw32p(p);
 #else
   return __swahw32(* p);
 #endif
 }
-static inline __u32 __swahb32p(const __u32 * p) {
+static __inline__ __u32 __swahb32p(const __u32 * p) {
 #ifdef __arch_swahb32p
   return __arch_swahb32p(p);
 #else
   return __swahb32(* p);
 #endif
 }
-static inline void __swab16s(__u16 * p) {
+static __inline__ void __swab16s(__u16 * p) {
 #ifdef __arch_swab16s
   __arch_swab16s(p);
 #else
@@ -115,14 +114,14 @@ static __always_inline void __swab64s(__u64 * p) {
   * p = __swab64p(p);
 #endif
 }
-static inline void __swahw32s(__u32 * p) {
+static __inline__ void __swahw32s(__u32 * p) {
 #ifdef __arch_swahw32s
   __arch_swahw32s(p);
 #else
   * p = __swahw32p(p);
 #endif
 }
-static inline void __swahb32s(__u32 * p) {
+static __inline__ void __swahb32s(__u32 * p) {
 #ifdef __arch_swahb32s
   __arch_swahb32s(p);
 #else

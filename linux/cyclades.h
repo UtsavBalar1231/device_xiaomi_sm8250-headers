@@ -16,8 +16,8 @@
  ***
  ****************************************************************************
  ****************************************************************************/
-#ifndef _UAPI_LINUX_CYCLADES_H
-#define _UAPI_LINUX_CYCLADES_H
+#ifndef _LINUX_CYCLADES_H
+#define _LINUX_CYCLADES_H
 #include <linux/types.h>
 struct cyclades_monitor {
   unsigned long int_count;

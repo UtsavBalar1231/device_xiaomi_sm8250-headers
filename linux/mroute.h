@@ -16,8 +16,8 @@
  ***
  ****************************************************************************
  ****************************************************************************/
-#ifndef _UAPI__LINUX_MROUTE_H
-#define _UAPI__LINUX_MROUTE_H
+#ifndef __LINUX_MROUTE_H
+#define __LINUX_MROUTE_H
 #include <linux/sockios.h>
 #include <linux/types.h>
 #include <linux/in.h>

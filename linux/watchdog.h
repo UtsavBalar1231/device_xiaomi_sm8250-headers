@@ -16,8 +16,8 @@
  ***
  ****************************************************************************
  ****************************************************************************/
-#ifndef _UAPI_LINUX_WATCHDOG_H
-#define _UAPI_LINUX_WATCHDOG_H
+#ifndef _LINUX_WATCHDOG_H
+#define _LINUX_WATCHDOG_H
 #include <linux/ioctl.h>
 #include <linux/types.h>
 #define WATCHDOG_IOCTL_BASE 'W'

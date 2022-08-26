@@ -16,8 +16,8 @@
  ***
  ****************************************************************************
  ****************************************************************************/
-#ifndef _UAPI__LINUX_USB_CHARGER_H
-#define _UAPI__LINUX_USB_CHARGER_H
+#ifndef __LINUX_USB_CHARGER_H
+#define __LINUX_USB_CHARGER_H
 enum usb_charger_type {
   UNKNOWN_TYPE = 0,
   SDP_TYPE = 1,

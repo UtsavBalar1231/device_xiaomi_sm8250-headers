@@ -16,8 +16,8 @@
  ***
  ****************************************************************************
  ****************************************************************************/
-#ifndef _UAPI_NFNETLINK_H
-#define _UAPI_NFNETLINK_H
+#ifndef _NFNETLINK_H
+#define _NFNETLINK_H
 #include <linux/types.h>
 #include <linux/netfilter/nfnetlink_compat.h>
 enum nfnetlink_groups {

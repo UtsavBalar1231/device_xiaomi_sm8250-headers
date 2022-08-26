@@ -16,8 +16,8 @@
  ***
  ****************************************************************************
  ****************************************************************************/
-#ifndef _UAPILINUX_NUBUS_H
-#define _UAPILINUX_NUBUS_H
+#ifndef LINUX_NUBUS_H
+#define LINUX_NUBUS_H
 #include <linux/types.h>
 enum nubus_category {
   NUBUS_CAT_BOARD = 0x0001,

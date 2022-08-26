@@ -16,8 +16,8 @@
  ***
  ****************************************************************************
  ****************************************************************************/
-#ifndef _UAPI_LINUX_MEMFD_H
-#define _UAPI_LINUX_MEMFD_H
+#ifndef _LINUX_MEMFD_H
+#define _LINUX_MEMFD_H
 #include <asm-generic/hugetlb_encode.h>
 #define MFD_CLOEXEC 0x0001U
 #define MFD_ALLOW_SEALING 0x0002U

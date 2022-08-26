@@ -16,8 +16,8 @@
  ***
  ****************************************************************************
  ****************************************************************************/
-#ifndef _UAPI_LINUX_CONST_H
-#define _UAPI_LINUX_CONST_H
+#ifndef _LINUX_CONST_H
+#define _LINUX_CONST_H
 #ifdef __ASSEMBLY__
 #define _AC(X,Y) X
 #define _AT(T,X) X

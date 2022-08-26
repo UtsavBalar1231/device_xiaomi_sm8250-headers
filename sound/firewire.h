@@ -16,8 +16,8 @@
  ***
  ****************************************************************************
  ****************************************************************************/
-#ifndef _UAPI_SOUND_FIREWIRE_H_INCLUDED
-#define _UAPI_SOUND_FIREWIRE_H_INCLUDED
+#ifndef _SOUND_FIREWIRE_H_INCLUDED
+#define _SOUND_FIREWIRE_H_INCLUDED
 #include <linux/ioctl.h>
 #include <linux/types.h>
 #define SNDRV_FIREWIRE_EVENT_LOCK_STATUS 0x000010cc

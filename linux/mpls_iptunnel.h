@@ -16,8 +16,8 @@
  ***
  ****************************************************************************
  ****************************************************************************/
-#ifndef _UAPI_LINUX_MPLS_IPTUNNEL_H
-#define _UAPI_LINUX_MPLS_IPTUNNEL_H
+#ifndef _LINUX_MPLS_IPTUNNEL_H
+#define _LINUX_MPLS_IPTUNNEL_H
 enum {
   MPLS_IPTUNNEL_UNSPEC,
   MPLS_IPTUNNEL_DST,

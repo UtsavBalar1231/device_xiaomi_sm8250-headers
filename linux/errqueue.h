@@ -16,8 +16,8 @@
  ***
  ****************************************************************************
  ****************************************************************************/
-#ifndef _UAPI_LINUX_ERRQUEUE_H
-#define _UAPI_LINUX_ERRQUEUE_H
+#ifndef _LINUX_ERRQUEUE_H
+#define _LINUX_ERRQUEUE_H
 #include <linux/types.h>
 struct sock_extended_err {
   __u32 ee_errno;

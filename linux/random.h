@@ -16,8 +16,8 @@
  ***
  ****************************************************************************
  ****************************************************************************/
-#ifndef _UAPI_LINUX_RANDOM_H
-#define _UAPI_LINUX_RANDOM_H
+#ifndef _LINUX_RANDOM_H
+#define _LINUX_RANDOM_H
 #include <linux/types.h>
 #include <linux/ioctl.h>
 #include <linux/irqnr.h>

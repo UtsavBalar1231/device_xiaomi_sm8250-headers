@@ -16,8 +16,8 @@
  ***
  ****************************************************************************
  ****************************************************************************/
-#ifndef _UAPI__ISDN_H__
-#define _UAPI__ISDN_H__
+#ifndef __ISDN_H__
+#define __ISDN_H__
 #include <linux/ioctl.h>
 #include <linux/tty.h>
 #define ISDN_MAX_DRIVERS 32

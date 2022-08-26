@@ -436,8 +436,8 @@ enum msm_vfe_reg_cfg_type {
 struct msm_vfe_cfg_cmd2 {
   uint16_t num_cfg;
   uint16_t cmd_len;
-  void __user * cfg_data;
-  void __user * cfg_cmd;
+  void * cfg_data;
+  void * cfg_cmd;
 };
 struct msm_vfe_cfg_cmd_list {
   struct msm_vfe_cfg_cmd2 cfg_cmd;

@@ -16,8 +16,8 @@
  ***
  ****************************************************************************
  ****************************************************************************/
-#ifndef _UAPI_IIO_TYPES_H_
-#define _UAPI_IIO_TYPES_H_
+#ifndef _IIO_TYPES_H_
+#define _IIO_TYPES_H_
 enum iio_chan_type {
   IIO_VOLTAGE,
   IIO_CURRENT,

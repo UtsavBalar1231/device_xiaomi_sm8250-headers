@@ -16,8 +16,8 @@
  ***
  ****************************************************************************
  ****************************************************************************/
-#ifndef _UAPI_BLKZONED_H
-#define _UAPI_BLKZONED_H
+#ifndef _BLKZONED_H
+#define _BLKZONED_H
 #include <linux/types.h>
 #include <linux/ioctl.h>
 enum blk_zone_type {

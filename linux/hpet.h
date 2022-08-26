@@ -16,9 +16,8 @@
  ***
  ****************************************************************************
  ****************************************************************************/
-#ifndef _UAPI__HPET__
-#define _UAPI__HPET__
-#include <linux/compiler.h>
+#ifndef __HPET__
+#define __HPET__
 struct hpet_info {
   unsigned long hi_ireqfreq;
   unsigned long hi_flags;

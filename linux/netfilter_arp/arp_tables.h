@@ -16,10 +16,9 @@
  ***
  ****************************************************************************
  ****************************************************************************/
-#ifndef _UAPI_ARPTABLES_H
-#define _UAPI_ARPTABLES_H
+#ifndef _ARPTABLES_H
+#define _ARPTABLES_H
 #include <linux/types.h>
-#include <linux/compiler.h>
 #include <linux/if.h>
 #include <linux/netfilter_arp.h>
 #include <linux/netfilter/x_tables.h>
@@ -98,7 +97,7 @@ struct arpt_replace {
   unsigned int hook_entry[NF_ARP_NUMHOOKS];
   unsigned int underflow[NF_ARP_NUMHOOKS];
   unsigned int num_counters;
-  struct xt_counters __user * counters;
+  struct xt_counters * counters;
   struct arpt_entry entries[0];
 };
 struct arpt_get_entries {

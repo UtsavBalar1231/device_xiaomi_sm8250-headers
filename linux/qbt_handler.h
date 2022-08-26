@@ -16,8 +16,8 @@
  ***
  ****************************************************************************
  ****************************************************************************/
-#ifndef _UAPI_QBT_HANDLER_H_
-#define _UAPI_QBT_HANDLER_H_
+#ifndef _QBT_HANDLER_H_
+#define _QBT_HANDLER_H_
 #define MAX_NAME_SIZE 32
 #define QBT_IS_WUHB_CONNECTED 100
 #define QBT_SEND_KEY_EVENT 101

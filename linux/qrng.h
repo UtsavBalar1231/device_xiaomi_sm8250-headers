@@ -16,8 +16,8 @@
  ***
  ****************************************************************************
  ****************************************************************************/
-#ifndef _UAPI_QRNG_H_
-#define _UAPI_QRNG_H_
+#ifndef _QRNG_H_
+#define _QRNG_H_
 #include <linux/types.h>
 #include <linux/ioctl.h>
 #define QRNG_IOC_MAGIC 0x100

@@ -16,8 +16,8 @@
  ***
  ****************************************************************************
  ****************************************************************************/
-#ifndef _UAPI_LINUX_CUDA_H
-#define _UAPI_LINUX_CUDA_H
+#ifndef _LINUX_CUDA_H
+#define _LINUX_CUDA_H
 #define CUDA_WARM_START 0
 #define CUDA_AUTOPOLL 1
 #define CUDA_GET_6805_ADDR 2

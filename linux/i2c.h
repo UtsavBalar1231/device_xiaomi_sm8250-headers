@@ -16,8 +16,8 @@
  ***
  ****************************************************************************
  ****************************************************************************/
-#ifndef _UAPI_LINUX_I2C_H
-#define _UAPI_LINUX_I2C_H
+#ifndef _LINUX_I2C_H
+#define _LINUX_I2C_H
 #include <linux/types.h>
 struct i2c_msg {
   __u16 addr;

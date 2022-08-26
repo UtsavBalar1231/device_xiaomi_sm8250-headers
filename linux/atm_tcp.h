@@ -16,8 +16,8 @@
  ***
  ****************************************************************************
  ****************************************************************************/
-#ifndef _UAPILINUX_ATM_TCP_H
-#define _UAPILINUX_ATM_TCP_H
+#ifndef LINUX_ATM_TCP_H
+#define LINUX_ATM_TCP_H
 #include <linux/atmapi.h>
 #include <linux/atm.h>
 #include <linux/atmioc.h>

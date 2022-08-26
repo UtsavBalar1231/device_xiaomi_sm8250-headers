@@ -16,8 +16,8 @@
  ***
  ****************************************************************************
  ****************************************************************************/
-#ifndef _UAPI_MPLS_H
-#define _UAPI_MPLS_H
+#ifndef _MPLS_H
+#define _MPLS_H
 #include <linux/types.h>
 #include <asm/byteorder.h>
 struct mpls_label {

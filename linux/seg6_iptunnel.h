@@ -16,8 +16,8 @@
  ***
  ****************************************************************************
  ****************************************************************************/
-#ifndef _UAPI_LINUX_SEG6_IPTUNNEL_H
-#define _UAPI_LINUX_SEG6_IPTUNNEL_H
+#ifndef _LINUX_SEG6_IPTUNNEL_H
+#define _LINUX_SEG6_IPTUNNEL_H
 #include <linux/seg6.h>
 enum {
   SEG6_IPTUNNEL_UNSPEC,

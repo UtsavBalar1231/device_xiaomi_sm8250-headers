@@ -16,8 +16,8 @@
  ***
  ****************************************************************************
  ****************************************************************************/
-#ifndef _UAPI_IIO_EVENTS_H_
-#define _UAPI_IIO_EVENTS_H_
+#ifndef _IIO_EVENTS_H_
+#define _IIO_EVENTS_H_
 #include <linux/ioctl.h>
 #include <linux/types.h>
 struct iio_event_data {

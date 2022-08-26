@@ -16,13 +16,12 @@
  ***
  ****************************************************************************
  ****************************************************************************/
-#ifndef _UAPI_ASM_GENERIC_SIGINFO_H
-#define _UAPI_ASM_GENERIC_SIGINFO_H
-#include <linux/compiler.h>
+#ifndef _ASM_GENERIC_SIGINFO_H
+#define _ASM_GENERIC_SIGINFO_H
 #include <linux/types.h>
 typedef union sigval {
   int sival_int;
-  void __user * sival_ptr;
+  void * sival_ptr;
 } sigval_t;
 #ifndef __ARCH_SI_PREAMBLE_SIZE
 #define __ARCH_SI_PREAMBLE_SIZE (3 * sizeof(int))
@@ -74,7 +73,7 @@ typedef struct siginfo {
       __ARCH_SI_CLOCK_T _stime;
     } _sigchld;
     struct {
-      void __user * _addr;
+      void * _addr;
 #ifdef __ARCH_SI_TRAPNO
       int _trapno;
 #endif
@@ -88,8 +87,8 @@ typedef struct siginfo {
         short _addr_lsb;
         struct {
           char _dummy_bnd[__ADDR_BND_PKEY_PAD];
-          void __user * _lower;
-          void __user * _upper;
+          void * _lower;
+          void * _upper;
         } _addr_bnd;
         struct {
           char _dummy_pkey[__ADDR_BND_PKEY_PAD];
@@ -102,7 +101,7 @@ typedef struct siginfo {
       int _fd;
     } _sigpoll;
     struct {
-      void __user * _call_addr;
+      void * _call_addr;
       int _syscall;
       unsigned int _arch;
     } _sigsys;

@@ -19,8 +19,8 @@
 #ifndef _LINUX_BCACHE_H
 #define _LINUX_BCACHE_H
 #include <linux/types.h>
-#define BITMASK(name,type,field,offset,size) static inline __u64 name(const type * k) \
-{ return(k->field >> offset) & ~(~0ULL << size); } static inline void SET_ ##name(type * k, __u64 v) \
+#define BITMASK(name,type,field,offset,size) static __inline__ __u64 name(const type * k) \
+{ return(k->field >> offset) & ~(~0ULL << size); } static __inline__ void SET_ ##name(type * k, __u64 v) \
 { k->field &= ~(~(~0ULL << size) << offset); k->field |= (v & ~(~0ULL << size)) << offset; \
 }
 struct bkey {
@@ -29,8 +29,8 @@ struct bkey {
   __u64 ptr[];
 };
 #define KEY_FIELD(name,field,offset,size) BITMASK(name, struct bkey, field, offset, size)
-#define PTR_FIELD(name,offset,size) static inline __u64 name(const struct bkey * k, unsigned int i) \
-{ return(k->ptr[i] >> offset) & ~(~0ULL << size); } static inline void SET_ ##name(struct bkey * k, unsigned int i, __u64 v) \
+#define PTR_FIELD(name,offset,size) static __inline__ __u64 name(const struct bkey * k, unsigned int i) \
+{ return(k->ptr[i] >> offset) & ~(~0ULL << size); } static __inline__ void SET_ ##name(struct bkey * k, unsigned int i, __u64 v) \
 { k->ptr[i] &= ~(~(~0ULL << size) << offset); k->ptr[i] |= (v & ~(~0ULL << size)) << offset; \
 }
 #define KEY_SIZE_BITS 16

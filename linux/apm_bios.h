@@ -16,8 +16,8 @@
  ***
  ****************************************************************************
  ****************************************************************************/
-#ifndef _UAPI_LINUX_APM_H
-#define _UAPI_LINUX_APM_H
+#ifndef _LINUX_APM_H
+#define _LINUX_APM_H
 #include <linux/types.h>
 typedef unsigned short apm_event_t;
 typedef unsigned short apm_eventinfo_t;

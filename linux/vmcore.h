@@ -16,8 +16,8 @@
  ***
  ****************************************************************************
  ****************************************************************************/
-#ifndef _UAPI_VMCORE_H
-#define _UAPI_VMCORE_H
+#ifndef _VMCORE_H
+#define _VMCORE_H
 #include <linux/types.h>
 #define VMCOREDD_NOTE_NAME "LINUX"
 #define VMCOREDD_MAX_NAME_BYTES 44

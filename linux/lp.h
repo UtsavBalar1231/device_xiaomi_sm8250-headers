@@ -16,8 +16,8 @@
  ***
  ****************************************************************************
  ****************************************************************************/
-#ifndef _UAPI_LINUX_LP_H
-#define _UAPI_LINUX_LP_H
+#ifndef _LINUX_LP_H
+#define _LINUX_LP_H
 #include <linux/types.h>
 #include <linux/ioctl.h>
 #define LP_EXIST 0x0001

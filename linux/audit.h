@@ -16,8 +16,8 @@
  ***
  ****************************************************************************
  ****************************************************************************/
-#ifndef _UAPI_LINUX_AUDIT_H_
-#define _UAPI_LINUX_AUDIT_H_
+#ifndef _LINUX_AUDIT_H_
+#define _LINUX_AUDIT_H_
 #include <linux/types.h>
 #include <linux/elf-em.h>
 #define AUDIT_GET 1000

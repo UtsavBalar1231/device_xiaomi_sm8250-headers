@@ -16,8 +16,8 @@
  ***
  ****************************************************************************
  ****************************************************************************/
-#ifndef _UAPI_ADFS_FS_H
-#define _UAPI_ADFS_FS_H
+#ifndef _ADFS_FS_H
+#define _ADFS_FS_H
 #include <linux/types.h>
 #include <linux/magic.h>
 struct adfs_discrecord {

@@ -16,8 +16,8 @@
  ***
  ****************************************************************************
  ****************************************************************************/
-#ifndef _UAPI_LINUX_RSEQ_H
-#define _UAPI_LINUX_RSEQ_H
+#ifndef _LINUX_RSEQ_H
+#define _LINUX_RSEQ_H
 #include <linux/types.h>
 #include <asm/byteorder.h>
 enum rseq_cpu_id_state {

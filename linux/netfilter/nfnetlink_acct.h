@@ -16,8 +16,8 @@
  ***
  ****************************************************************************
  ****************************************************************************/
-#ifndef _UAPI_NFNL_ACCT_H_
-#define _UAPI_NFNL_ACCT_H_
+#ifndef _NFNL_ACCT_H_
+#define _NFNL_ACCT_H_
 #ifndef NFACCT_NAME_MAX
 #define NFACCT_NAME_MAX 32
 #endif

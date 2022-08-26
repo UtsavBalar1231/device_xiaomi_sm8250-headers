@@ -16,8 +16,8 @@
  ***
  ****************************************************************************
  ****************************************************************************/
-#ifndef _UAPILINUX_KERNEL_PAGE_FLAGS_H
-#define _UAPILINUX_KERNEL_PAGE_FLAGS_H
+#ifndef LINUX_KERNEL_PAGE_FLAGS_H
+#define LINUX_KERNEL_PAGE_FLAGS_H
 #define KPF_LOCKED 0
 #define KPF_ERROR 1
 #define KPF_REFERENCED 2

@@ -16,8 +16,8 @@
  ***
  ****************************************************************************
  ****************************************************************************/
-#ifndef _UAPILINUX_KEXEC_H
-#define _UAPILINUX_KEXEC_H
+#ifndef LINUX_KEXEC_H
+#define LINUX_KEXEC_H
 #include <linux/types.h>
 #define KEXEC_ON_CRASH 0x00000001
 #define KEXEC_PRESERVE_CONTEXT 0x00000002

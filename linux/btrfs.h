@@ -16,8 +16,8 @@
  ***
  ****************************************************************************
  ****************************************************************************/
-#ifndef _UAPI_LINUX_BTRFS_H
-#define _UAPI_LINUX_BTRFS_H
+#ifndef _LINUX_BTRFS_H
+#define _LINUX_BTRFS_H
 #include <linux/types.h>
 #include <linux/ioctl.h>
 #define BTRFS_IOCTL_MAGIC 0x94
@@ -71,7 +71,7 @@ struct btrfs_ioctl_vol_args_v2 {
   union {
     struct {
       __u64 size;
-      struct btrfs_qgroup_inherit __user * qgroup_inherit;
+      struct btrfs_qgroup_inherit * qgroup_inherit;
     };
     __u64 unused[4];
   };
@@ -408,7 +408,7 @@ struct btrfs_ioctl_received_subvol_args {
 struct btrfs_ioctl_send_args {
   __s64 send_fd;
   __u64 clone_sources_count;
-  __u64 __user * clone_sources;
+  __u64 * clone_sources;
   __u64 parent_root;
   __u64 flags;
   __u64 reserved[4];

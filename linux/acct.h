@@ -16,8 +16,8 @@
  ***
  ****************************************************************************
  ****************************************************************************/
-#ifndef _UAPI_LINUX_ACCT_H
-#define _UAPI_LINUX_ACCT_H
+#ifndef _LINUX_ACCT_H
+#define _LINUX_ACCT_H
 #include <linux/types.h>
 #include <asm/param.h>
 #include <asm/byteorder.h>

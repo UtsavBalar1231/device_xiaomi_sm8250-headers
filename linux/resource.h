@@ -16,8 +16,8 @@
  ***
  ****************************************************************************
  ****************************************************************************/
-#ifndef _UAPI_LINUX_RESOURCE_H
-#define _UAPI_LINUX_RESOURCE_H
+#ifndef _LINUX_RESOURCE_H
+#define _LINUX_RESOURCE_H
 #include <linux/time.h>
 #include <linux/types.h>
 #define RUSAGE_SELF 0

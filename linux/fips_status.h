@@ -16,8 +16,8 @@
  ***
  ****************************************************************************
  ****************************************************************************/
-#ifndef _UAPI_FIPS_STATUS__H
-#define _UAPI_FIPS_STATUS__H
+#ifndef _FIPS_STATUS__H
+#define _FIPS_STATUS__H
 #include <linux/types.h>
 #include <linux/ioctl.h>
 enum fips_status {

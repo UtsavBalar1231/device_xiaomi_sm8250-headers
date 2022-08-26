@@ -16,8 +16,8 @@
  ***
  ****************************************************************************
  ****************************************************************************/
-#ifndef _UAPI_LINUX_SYNC_H
-#define _UAPI_LINUX_SYNC_H
+#ifndef _LINUX_SYNC_H
+#define _LINUX_SYNC_H
 #include <linux/ioctl.h>
 #include <linux/types.h>
 struct sync_merge_data {

@@ -16,8 +16,8 @@
  ***
  ****************************************************************************
  ****************************************************************************/
-#ifndef _UAPI__LINUX_OPENVSWITCH_H
-#define _UAPI__LINUX_OPENVSWITCH_H 1
+#ifndef __LINUX_OPENVSWITCH_H
+#define __LINUX_OPENVSWITCH_H 1
 #include <linux/types.h>
 #include <linux/if_ether.h>
 struct ovs_header {

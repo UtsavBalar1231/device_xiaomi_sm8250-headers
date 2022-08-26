@@ -16,8 +16,8 @@
  ***
  ****************************************************************************
  ****************************************************************************/
-#ifndef _UAPI_LIBC_COMPAT_H
-#define _UAPI_LIBC_COMPAT_H
+#ifndef _LIBC_COMPAT_H
+#define _LIBC_COMPAT_H
 #ifdef __GLIBC__
 #if defined(_NET_IF_H) && defined(__USE_MISC)
 #define __UAPI_DEF_IF_IFCONF 0

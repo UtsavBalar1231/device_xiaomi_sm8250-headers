@@ -16,8 +16,8 @@
  ***
  ****************************************************************************
  ****************************************************************************/
-#ifndef _UAPI_INET_DIAG_H_
-#define _UAPI_INET_DIAG_H_
+#ifndef _INET_DIAG_H_
+#define _INET_DIAG_H_
 #include <linux/types.h>
 #define TCPDIAG_GETSOCK 18
 #define DCCPDIAG_GETSOCK 19

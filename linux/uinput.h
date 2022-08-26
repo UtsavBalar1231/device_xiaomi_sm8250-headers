@@ -16,8 +16,8 @@
  ***
  ****************************************************************************
  ****************************************************************************/
-#ifndef _UAPI__UINPUT_H_
-#define _UAPI__UINPUT_H_
+#ifndef __UINPUT_H_
+#define __UINPUT_H_
 #include <linux/types.h>
 #include <linux/input.h>
 #define UINPUT_VERSION 5

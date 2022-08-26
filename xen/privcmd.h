@@ -19,7 +19,6 @@
 #ifndef __LINUX_PUBLIC_PRIVCMD_H__
 #define __LINUX_PUBLIC_PRIVCMD_H__
 #include <linux/types.h>
-#include <linux/compiler.h>
 #include <xen/interface/xen.h>
 struct privcmd_hypercall {
   __u64 op;
@@ -33,13 +32,13 @@ struct privcmd_mmap_entry {
 struct privcmd_mmap {
   int num;
   domid_t dom;
-  struct privcmd_mmap_entry __user * entry;
+  struct privcmd_mmap_entry * entry;
 };
 struct privcmd_mmapbatch {
   int num;
   domid_t dom;
   __u64 addr;
-  xen_pfn_t __user * arr;
+  xen_pfn_t * arr;
 };
 #define PRIVCMD_MMAPBATCH_MFN_ERROR 0xf0000000U
 #define PRIVCMD_MMAPBATCH_PAGED_ERROR 0x80000000U
@@ -47,17 +46,17 @@ struct privcmd_mmapbatch_v2 {
   unsigned int num;
   domid_t dom;
   __u64 addr;
-  const xen_pfn_t __user * arr;
-  int __user * err;
+  const xen_pfn_t * arr;
+  int * err;
 };
 struct privcmd_dm_op_buf {
-  void __user * uptr;
+  void * uptr;
   size_t size;
 };
 struct privcmd_dm_op {
   domid_t dom;
   __u16 num;
-  const struct privcmd_dm_op_buf __user * ubufs;
+  const struct privcmd_dm_op_buf * ubufs;
 };
 struct privcmd_mmap_resource {
   domid_t dom;

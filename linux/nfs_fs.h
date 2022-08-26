@@ -16,8 +16,8 @@
  ***
  ****************************************************************************
  ****************************************************************************/
-#ifndef _UAPI_LINUX_NFS_FS_H
-#define _UAPI_LINUX_NFS_FS_H
+#ifndef _LINUX_NFS_FS_H
+#define _LINUX_NFS_FS_H
 #include <linux/magic.h>
 #define NFS_DEF_UDP_TIMEO (11)
 #define NFS_DEF_UDP_RETRANS (3)

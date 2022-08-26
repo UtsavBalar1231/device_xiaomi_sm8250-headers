@@ -16,8 +16,8 @@
  ***
  ****************************************************************************
  ****************************************************************************/
-#ifndef _UAPI__CRAMFS_H
-#define _UAPI__CRAMFS_H
+#ifndef __CRAMFS_H
+#define __CRAMFS_H
 #include <linux/types.h>
 #include <linux/magic.h>
 #define CRAMFS_SIGNATURE "Compressed ROMFS"

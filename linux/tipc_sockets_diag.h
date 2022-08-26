@@ -16,8 +16,8 @@
  ***
  ****************************************************************************
  ****************************************************************************/
-#ifndef _UAPI__TIPC_SOCKETS_DIAG_H__
-#define _UAPI__TIPC_SOCKETS_DIAG_H__
+#ifndef __TIPC_SOCKETS_DIAG_H__
+#define __TIPC_SOCKETS_DIAG_H__
 #include <linux/types.h>
 #include <linux/sock_diag.h>
 struct tipc_sock_diag_req {

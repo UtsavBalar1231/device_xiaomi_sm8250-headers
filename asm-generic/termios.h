@@ -16,8 +16,8 @@
  ***
  ****************************************************************************
  ****************************************************************************/
-#ifndef _UAPI_ASM_GENERIC_TERMIOS_H
-#define _UAPI_ASM_GENERIC_TERMIOS_H
+#ifndef _ASM_GENERIC_TERMIOS_H
+#define _ASM_GENERIC_TERMIOS_H
 #include <asm/termbits.h>
 #include <asm/ioctls.h>
 struct winsize {

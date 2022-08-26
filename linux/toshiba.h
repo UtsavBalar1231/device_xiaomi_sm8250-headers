@@ -16,8 +16,8 @@
  ***
  ****************************************************************************
  ****************************************************************************/
-#ifndef _UAPI_LINUX_TOSHIBA_H
-#define _UAPI_LINUX_TOSHIBA_H
+#ifndef _LINUX_TOSHIBA_H
+#define _LINUX_TOSHIBA_H
 #define TOSH_PROC "/proc/toshiba"
 #define TOSH_DEVICE "/dev/toshiba"
 #define TOSHIBA_ACPI_PROC "/proc/acpi/toshiba"

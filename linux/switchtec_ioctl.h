@@ -16,8 +16,8 @@
  ***
  ****************************************************************************
  ****************************************************************************/
-#ifndef _UAPI_LINUX_SWITCHTEC_IOCTL_H
-#define _UAPI_LINUX_SWITCHTEC_IOCTL_H
+#ifndef _LINUX_SWITCHTEC_IOCTL_H
+#define _LINUX_SWITCHTEC_IOCTL_H
 #include <linux/types.h>
 #define SWITCHTEC_IOCTL_PART_CFG0 0
 #define SWITCHTEC_IOCTL_PART_CFG1 1

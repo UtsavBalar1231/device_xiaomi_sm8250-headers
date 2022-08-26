@@ -16,8 +16,8 @@
  ***
  ****************************************************************************
  ****************************************************************************/
-#ifndef _UAPI_RDMA_NETLINK_H
-#define _UAPI_RDMA_NETLINK_H
+#ifndef _RDMA_NETLINK_H
+#define _RDMA_NETLINK_H
 #include <linux/types.h>
 enum {
   RDMA_NL_RDMA_CM = 1,

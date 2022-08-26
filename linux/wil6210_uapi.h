@@ -38,6 +38,6 @@ struct wil_memio_block {
   uint32_t op;
   uint32_t addr;
   uint32_t size;
-  uint64_t __user block;
+  uint64_t block;
 };
 #endif

@@ -16,8 +16,8 @@
  ***
  ****************************************************************************
  ****************************************************************************/
-#ifndef _UAPI__LINUX_LLC_H
-#define _UAPI__LINUX_LLC_H
+#ifndef __LINUX_LLC_H
+#define __LINUX_LLC_H
 #include <linux/socket.h>
 #include <linux/if.h>
 #define __LLC_SOCK_SIZE__ 16

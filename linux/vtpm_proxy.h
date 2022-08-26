@@ -16,8 +16,8 @@
  ***
  ****************************************************************************
  ****************************************************************************/
-#ifndef _UAPI_LINUX_VTPM_PROXY_H
-#define _UAPI_LINUX_VTPM_PROXY_H
+#ifndef _LINUX_VTPM_PROXY_H
+#define _LINUX_VTPM_PROXY_H
 #include <linux/types.h>
 #include <linux/ioctl.h>
 enum vtpm_proxy_flags {

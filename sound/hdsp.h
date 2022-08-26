@@ -64,7 +64,7 @@ struct hdsp_config_info {
 };
 #define SNDRV_HDSP_IOCTL_GET_CONFIG_INFO _IOR('H', 0x41, struct hdsp_config_info)
 struct hdsp_firmware {
-  void __user * firmware_data;
+  void * firmware_data;
 };
 #define SNDRV_HDSP_IOCTL_UPLOAD_FIRMWARE _IOW('H', 0x42, struct hdsp_firmware)
 struct hdsp_version {

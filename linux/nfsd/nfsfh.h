@@ -16,8 +16,8 @@
  ***
  ****************************************************************************
  ****************************************************************************/
-#ifndef _UAPI_LINUX_NFSD_FH_H
-#define _UAPI_LINUX_NFSD_FH_H
+#ifndef _LINUX_NFSD_FH_H
+#define _LINUX_NFSD_FH_H
 #include <linux/types.h>
 #include <linux/nfs.h>
 #include <linux/nfs2.h>

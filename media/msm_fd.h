@@ -42,7 +42,7 @@ struct msm_fd_face_data {
 struct msm_fd_result {
   __u32 frame_id;
   __u32 face_cnt;
-  struct msm_fd_face_data __user * face_data;
+  struct msm_fd_face_data * face_data;
 };
 #define VIDIOC_MSM_FD_GET_RESULT _IOWR('V', BASE_VIDIOC_PRIVATE, struct msm_fd_result)
 #define MSM_EVENT_FD (V4L2_EVENT_PRIVATE_START)

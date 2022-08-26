@@ -16,8 +16,8 @@
  ***
  ****************************************************************************
  ****************************************************************************/
-#ifndef _UAPI_LINUX_IF_FDDI_H
-#define _UAPI_LINUX_IF_FDDI_H
+#ifndef _LINUX_IF_FDDI_H
+#define _LINUX_IF_FDDI_H
 #include <linux/types.h>
 #define FDDI_K_ALEN 6
 #define FDDI_K_8022_HLEN 16

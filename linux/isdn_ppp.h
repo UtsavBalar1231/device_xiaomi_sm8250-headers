@@ -16,8 +16,8 @@
  ***
  ****************************************************************************
  ****************************************************************************/
-#ifndef _UAPI_LINUX_ISDN_PPP_H
-#define _UAPI_LINUX_ISDN_PPP_H
+#ifndef _LINUX_ISDN_PPP_H
+#define _LINUX_ISDN_PPP_H
 #define CALLTYPE_INCOMING 0x1
 #define CALLTYPE_OUTGOING 0x2
 #define CALLTYPE_CALLBACK 0x4

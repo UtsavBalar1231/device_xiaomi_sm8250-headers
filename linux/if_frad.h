@@ -16,8 +16,8 @@
  ***
  ****************************************************************************
  ****************************************************************************/
-#ifndef _UAPI_FRAD_H_
-#define _UAPI_FRAD_H_
+#ifndef _FRAD_H_
+#define _FRAD_H_
 #include <linux/if.h>
 struct dlci_add {
   char devname[IFNAMSIZ];

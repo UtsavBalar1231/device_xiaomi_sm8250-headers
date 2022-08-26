@@ -16,8 +16,8 @@
  ***
  ****************************************************************************
  ****************************************************************************/
-#ifndef _UAPI_LINUX_PMU_H
-#define _UAPI_LINUX_PMU_H
+#ifndef _LINUX_PMU_H
+#define _LINUX_PMU_H
 #define PMU_DRIVER_VERSION 2
 #define PMU_POWER_CTRL0 0x10
 #define PMU_POWER_CTRL 0x11

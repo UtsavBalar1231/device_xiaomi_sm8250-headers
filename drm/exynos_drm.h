@@ -16,8 +16,8 @@
  ***
  ****************************************************************************
  ****************************************************************************/
-#ifndef _UAPI_EXYNOS_DRM_H_
-#define _UAPI_EXYNOS_DRM_H_
+#ifndef _EXYNOS_DRM_H_
+#define _EXYNOS_DRM_H_
 #include "drm.h"
 #ifdef __cplusplus
 extern "C" {

@@ -16,8 +16,8 @@
  ***
  ****************************************************************************
  ****************************************************************************/
-#ifndef _UAPI__LINUX_FUNCTIONFS_H__
-#define _UAPI__LINUX_FUNCTIONFS_H__
+#ifndef __LINUX_FUNCTIONFS_H__
+#define __LINUX_FUNCTIONFS_H__
 #include <linux/types.h>
 #include <linux/ioctl.h>
 #include <linux/usb/ch9.h>

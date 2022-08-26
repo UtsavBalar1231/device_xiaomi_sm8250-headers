@@ -16,8 +16,8 @@
  ***
  ****************************************************************************
  ****************************************************************************/
-#ifndef _UAPI_LINUX_NET_NAMESPACE_H_
-#define _UAPI_LINUX_NET_NAMESPACE_H_
+#ifndef _LINUX_NET_NAMESPACE_H_
+#define _LINUX_NET_NAMESPACE_H_
 enum {
   NETNSA_NONE,
 #define NETNSA_NSID_NOT_ASSIGNED - 1

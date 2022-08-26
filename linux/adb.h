@@ -16,8 +16,8 @@
  ***
  ****************************************************************************
  ****************************************************************************/
-#ifndef _UAPI__ADB_H
-#define _UAPI__ADB_H
+#ifndef __ADB_H
+#define __ADB_H
 #define ADB_BUSRESET 0
 #define ADB_FLUSH(id) (0x01 | ((id) << 4))
 #define ADB_WRITEREG(id,reg) (0x08 | (reg) | ((id) << 4))

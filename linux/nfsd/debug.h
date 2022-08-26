@@ -16,8 +16,8 @@
  ***
  ****************************************************************************
  ****************************************************************************/
-#ifndef _UAPILINUX_NFSD_DEBUG_H
-#define _UAPILINUX_NFSD_DEBUG_H
+#ifndef LINUX_NFSD_DEBUG_H
+#define LINUX_NFSD_DEBUG_H
 #include <linux/sunrpc/debug.h>
 #define NFSDDBG_SOCK 0x0001
 #define NFSDDBG_FH 0x0002

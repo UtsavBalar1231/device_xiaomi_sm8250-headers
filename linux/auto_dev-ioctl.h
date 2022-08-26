@@ -16,8 +16,8 @@
  ***
  ****************************************************************************
  ****************************************************************************/
-#ifndef _UAPI_LINUX_AUTO_DEV_IOCTL_H
-#define _UAPI_LINUX_AUTO_DEV_IOCTL_H
+#ifndef _LINUX_AUTO_DEV_IOCTL_H
+#define _LINUX_AUTO_DEV_IOCTL_H
 #include <linux/auto_fs.h>
 #include <linux/string.h>
 #define AUTOFS_DEVICE_NAME "autofs"

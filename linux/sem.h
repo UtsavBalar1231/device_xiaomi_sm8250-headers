@@ -16,8 +16,8 @@
  ***
  ****************************************************************************
  ****************************************************************************/
-#ifndef _UAPI_LINUX_SEM_H
-#define _UAPI_LINUX_SEM_H
+#ifndef _LINUX_SEM_H
+#define _LINUX_SEM_H
 #include <linux/ipc.h>
 #define SEM_UNDO 0x1000
 #define GETPID 11
@@ -48,10 +48,10 @@ struct sembuf {
 };
 union __kernel_legacy_semun {
   int val;
-  struct __kernel_legacy_semid_ds __user * buf;
-  unsigned short __user * array;
-  struct seminfo __user * __buf;
-  void __user * __pad;
+  struct __kernel_legacy_semid_ds * buf;
+  unsigned short * array;
+  struct seminfo * __buf;
+  void * __pad;
 };
 struct seminfo {
   int semmap;

@@ -16,8 +16,8 @@
  ***
  ****************************************************************************
  ****************************************************************************/
-#ifndef _UAPI_HIDRAW_H
-#define _UAPI_HIDRAW_H
+#ifndef _HIDRAW_H
+#define _HIDRAW_H
 #include <linux/hid.h>
 #include <linux/types.h>
 struct hidraw_report_descriptor {

@@ -16,8 +16,8 @@
  ***
  ****************************************************************************
  ****************************************************************************/
-#ifndef _UAPI_LWTUNNEL_H_
-#define _UAPI_LWTUNNEL_H_
+#ifndef _LWTUNNEL_H_
+#define _LWTUNNEL_H_
 #include <linux/types.h>
 enum lwtunnel_encap_types {
   LWTUNNEL_ENCAP_NONE,

@@ -16,8 +16,8 @@
  ***
  ****************************************************************************
  ****************************************************************************/
-#ifndef _UAPI_LINUX_IF_LINK_H
-#define _UAPI_LINUX_IF_LINK_H
+#ifndef _LINUX_IF_LINK_H
+#define _LINUX_IF_LINK_H
 #include <linux/types.h>
 #include <linux/netlink.h>
 struct rtnl_link_stats {

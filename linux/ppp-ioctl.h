@@ -19,7 +19,6 @@
 #ifndef _PPP_IOCTL_H
 #define _PPP_IOCTL_H
 #include <linux/types.h>
-#include <linux/compiler.h>
 #include <linux/ppp_defs.h>
 #define SC_COMP_PROT 0x00000001
 #define SC_COMP_AC 0x00000002
@@ -56,7 +55,7 @@ struct npioctl {
   enum NPmode mode;
 };
 struct ppp_option_data {
-  __u8 __user * ptr;
+  __u8 * ptr;
   __u32 length;
   int transmit;
 };

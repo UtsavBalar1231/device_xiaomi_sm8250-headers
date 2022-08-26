@@ -16,8 +16,8 @@
  ***
  ****************************************************************************
  ****************************************************************************/
-#ifndef _UAPI_MISC_OCXL_H
-#define _UAPI_MISC_OCXL_H
+#ifndef _MISC_OCXL_H
+#define _MISC_OCXL_H
 #include <linux/types.h>
 #include <linux/ioctl.h>
 enum ocxl_event_type {

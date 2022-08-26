@@ -16,8 +16,8 @@
  ***
  ****************************************************************************
  ****************************************************************************/
-#ifndef _UAPI_CODA_HEADER_
-#define _UAPI_CODA_HEADER_
+#ifndef _CODA_HEADER_
+#define _CODA_HEADER_
 #if defined(__NetBSD__) || (defined(DJGPP) || defined(__CYGWIN32__)) && !defined(KERNEL)
 #include <sys/types.h>
 #endif
@@ -37,7 +37,7 @@ typedef unsigned __int64 u_quad_t;
 #else
 typedef unsigned long long u_quad_t;
 #endif
-#define inline
+#define __inline__
 struct timespec {
   long ts_sec;
   long ts_nsec;
@@ -494,13 +494,13 @@ union coda_downcalls {
 };
 #define PIOCPARM_MASK 0x0000ffff
 struct ViceIoctl {
-  void __user * in;
-  void __user * out;
+  void * in;
+  void * out;
   u_short in_size;
   u_short out_size;
 };
 struct PioctlData {
-  const char __user * path;
+  const char * path;
   int follow;
   struct ViceIoctl vi;
 };

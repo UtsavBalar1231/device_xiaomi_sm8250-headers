@@ -16,8 +16,8 @@
  ***
  ****************************************************************************
  ****************************************************************************/
-#ifndef _UAPI_SONYPI_H_
-#define _UAPI_SONYPI_H_
+#ifndef _SONYPI_H_
+#define _SONYPI_H_
 #include <linux/types.h>
 #define SONYPI_EVENT_IGNORE 0
 #define SONYPI_EVENT_JOGDIAL_DOWN 1

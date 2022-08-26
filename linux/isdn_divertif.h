@@ -16,8 +16,8 @@
  ***
  ****************************************************************************
  ****************************************************************************/
-#ifndef _UAPI_LINUX_ISDN_DIVERTIF_H
-#define _UAPI_LINUX_ISDN_DIVERTIF_H
+#ifndef _LINUX_ISDN_DIVERTIF_H
+#define _LINUX_ISDN_DIVERTIF_H
 #define DIVERT_IF_MAGIC 0x25873401
 #define DIVERT_CMD_REG 0x00
 #define DIVERT_CMD_REL 0x01

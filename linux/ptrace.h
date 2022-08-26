@@ -16,8 +16,8 @@
  ***
  ****************************************************************************
  ****************************************************************************/
-#ifndef _UAPI_LINUX_PTRACE_H
-#define _UAPI_LINUX_PTRACE_H
+#ifndef _LINUX_PTRACE_H
+#define _LINUX_PTRACE_H
 #include <linux/types.h>
 #define PTRACE_TRACEME 0
 #define PTRACE_PEEKTEXT 1

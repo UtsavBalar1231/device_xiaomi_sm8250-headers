@@ -16,8 +16,8 @@
  ***
  ****************************************************************************
  ****************************************************************************/
-#ifndef _UAPI__INCLUDE_LINUX_OOM_H
-#define _UAPI__INCLUDE_LINUX_OOM_H
+#ifndef __INCLUDE_LINUX_OOM_H
+#define __INCLUDE_LINUX_OOM_H
 #define OOM_SCORE_ADJ_MIN (- 1000)
 #define OOM_SCORE_ADJ_MAX 1000
 #define OOM_DISABLE (- 17)

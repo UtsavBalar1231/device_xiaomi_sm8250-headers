@@ -27,5 +27,5 @@ struct ccw_io_region {
 #define IRB_AREA_SIZE 96
   __u8 irb_area[IRB_AREA_SIZE];
   __u32 ret_code;
-} __packed;
+} __attribute__((packed));
 #endif

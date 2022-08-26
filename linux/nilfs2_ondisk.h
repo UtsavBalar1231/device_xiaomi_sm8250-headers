@@ -248,11 +248,11 @@ enum {
   NILFS_CHECKPOINT_SKETCH,
   NILFS_CHECKPOINT_MINOR,
 };
-#define NILFS_CHECKPOINT_FNS(flag,name) static inline void nilfs_checkpoint_set_ ##name(struct nilfs_checkpoint * cp) \
+#define NILFS_CHECKPOINT_FNS(flag,name) static __inline__ void nilfs_checkpoint_set_ ##name(struct nilfs_checkpoint * cp) \
 { cp->cp_flags = __cpu_to_le32(__le32_to_cpu(cp->cp_flags) | (1UL << NILFS_CHECKPOINT_ ##flag)); \
-} static inline void nilfs_checkpoint_clear_ ##name(struct nilfs_checkpoint * cp) \
+} static __inline__ void nilfs_checkpoint_clear_ ##name(struct nilfs_checkpoint * cp) \
 { cp->cp_flags = __cpu_to_le32(__le32_to_cpu(cp->cp_flags) & ~(1UL << NILFS_CHECKPOINT_ ##flag)); \
-} static inline int nilfs_checkpoint_ ##name(const struct nilfs_checkpoint * cp) \
+} static __inline__ int nilfs_checkpoint_ ##name(const struct nilfs_checkpoint * cp) \
 { return ! ! (__le32_to_cpu(cp->cp_flags) & (1UL << NILFS_CHECKPOINT_ ##flag)); \
 }
 struct nilfs_cpfile_header {
@@ -272,11 +272,11 @@ enum {
   NILFS_SEGMENT_USAGE_DIRTY,
   NILFS_SEGMENT_USAGE_ERROR,
 };
-#define NILFS_SEGMENT_USAGE_FNS(flag,name) static inline void nilfs_segment_usage_set_ ##name(struct nilfs_segment_usage * su) \
+#define NILFS_SEGMENT_USAGE_FNS(flag,name) static __inline__ void nilfs_segment_usage_set_ ##name(struct nilfs_segment_usage * su) \
 { su->su_flags = __cpu_to_le32(__le32_to_cpu(su->su_flags) | (1UL << NILFS_SEGMENT_USAGE_ ##flag)); \
-} static inline void nilfs_segment_usage_clear_ ##name(struct nilfs_segment_usage * su) \
+} static __inline__ void nilfs_segment_usage_clear_ ##name(struct nilfs_segment_usage * su) \
 { su->su_flags = __cpu_to_le32(__le32_to_cpu(su->su_flags) & ~(1UL << NILFS_SEGMENT_USAGE_ ##flag)); \
-} static inline int nilfs_segment_usage_ ##name(const struct nilfs_segment_usage * su) \
+} static __inline__ int nilfs_segment_usage_ ##name(const struct nilfs_segment_usage * su) \
 { return ! ! (__le32_to_cpu(su->su_flags) & (1UL << NILFS_SEGMENT_USAGE_ ##flag)); \
 }
 struct nilfs_sufile_header {

@@ -16,8 +16,8 @@
  ***
  ****************************************************************************
  ****************************************************************************/
-#ifndef _UAPI_LINUX_ELF_H
-#define _UAPI_LINUX_ELF_H
+#ifndef _LINUX_ELF_H
+#define _LINUX_ELF_H
 #include <linux/types.h>
 #include <linux/elf-em.h>
 typedef __u32 Elf32_Addr;

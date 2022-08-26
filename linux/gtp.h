@@ -16,8 +16,8 @@
  ***
  ****************************************************************************
  ****************************************************************************/
-#ifndef _UAPI_LINUX_GTP_H_
-#define _UAPI_LINUX_GTP_H_
+#ifndef _LINUX_GTP_H_
+#define _LINUX_GTP_H_
 enum gtp_genl_cmds {
   GTP_CMD_NEWPDP,
   GTP_CMD_DELPDP,

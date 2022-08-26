@@ -16,8 +16,8 @@
  ***
  ****************************************************************************
  ****************************************************************************/
-#ifndef _UAPI_ERSPAN_H
-#define _UAPI_ERSPAN_H
+#ifndef _ERSPAN_H
+#define _ERSPAN_H
 #include <linux/types.h>
 #include <asm/byteorder.h>
 struct erspan_md2 {

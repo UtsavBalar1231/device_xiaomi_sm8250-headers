@@ -16,8 +16,8 @@
  ***
  ****************************************************************************
  ****************************************************************************/
-#ifndef _UAPI_LINUX_PSCI_H
-#define _UAPI_LINUX_PSCI_H
+#ifndef _LINUX_PSCI_H
+#define _LINUX_PSCI_H
 #define PSCI_0_2_FN_BASE 0x84000000
 #define PSCI_0_2_FN(n) (PSCI_0_2_FN_BASE + (n))
 #define PSCI_0_2_64BIT 0x40000000

@@ -16,8 +16,8 @@
  ***
  ****************************************************************************
  ****************************************************************************/
-#ifndef _UAPI_HIDDEV_H
-#define _UAPI_HIDDEV_H
+#ifndef _HIDDEV_H
+#define _HIDDEV_H
 #include <linux/types.h>
 struct hiddev_event {
   unsigned hid;

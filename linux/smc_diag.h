@@ -16,8 +16,8 @@
  ***
  ****************************************************************************
  ****************************************************************************/
-#ifndef _UAPI_SMC_DIAG_H_
-#define _UAPI_SMC_DIAG_H_
+#ifndef _SMC_DIAG_H_
+#define _SMC_DIAG_H_
 #include <linux/types.h>
 #include <linux/inet_diag.h>
 #include <rdma/ib_user_verbs.h>

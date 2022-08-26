@@ -16,8 +16,8 @@
  ***
  ****************************************************************************
  ****************************************************************************/
-#ifndef _UAPI_MACSEC_H
-#define _UAPI_MACSEC_H
+#ifndef _MACSEC_H
+#define _MACSEC_H
 #include <linux/types.h>
 #define MACSEC_GENL_NAME "macsec"
 #define MACSEC_GENL_VERSION 1

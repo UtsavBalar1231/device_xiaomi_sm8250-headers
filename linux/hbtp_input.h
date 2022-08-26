@@ -16,8 +16,8 @@
  ***
  ****************************************************************************
  ****************************************************************************/
-#ifndef _UAPI_HBTP_INPUT_H
-#define _UAPI_HBTP_INPUT_H
+#ifndef _HBTP_INPUT_H
+#define _HBTP_INPUT_H
 #include <linux/input.h>
 #define HBTP_MAX_FINGER 20
 #define HBTP_ABS_MT_FIRST ABS_MT_TOUCH_MAJOR

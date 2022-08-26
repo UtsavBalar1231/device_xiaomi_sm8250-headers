@@ -16,8 +16,8 @@
  ***
  ****************************************************************************
  ****************************************************************************/
-#ifndef _UAPI_LINUX_NVRAM_H
-#define _UAPI_LINUX_NVRAM_H
+#ifndef _LINUX_NVRAM_H
+#define _LINUX_NVRAM_H
 #include <linux/ioctl.h>
 #define NVRAM_INIT _IO('p', 0x40)
 #define NVRAM_SETCKS _IO('p', 0x41)

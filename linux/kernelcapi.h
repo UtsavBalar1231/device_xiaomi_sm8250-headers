@@ -16,8 +16,8 @@
  ***
  ****************************************************************************
  ****************************************************************************/
-#ifndef _UAPI__KERNELCAPI_H__
-#define _UAPI__KERNELCAPI_H__
+#ifndef __KERNELCAPI_H__
+#define __KERNELCAPI_H__
 #define CAPI_MAXAPPL 240
 #define CAPI_MAXCONTR 32
 #define CAPI_MAXDATAWINDOW 8

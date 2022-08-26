@@ -16,8 +16,8 @@
  ***
  ****************************************************************************
  ****************************************************************************/
-#ifndef _UAPILINUX_ATMDEV_H
-#define _UAPILINUX_ATMDEV_H
+#ifndef LINUX_ATMDEV_H
+#define LINUX_ATMDEV_H
 #include <linux/atmapi.h>
 #include <linux/atm.h>
 #include <linux/atmioc.h>
@@ -86,7 +86,7 @@ struct atm_dev_stats {
 #define ATM_LM_RMT_ANALOG __ATM_LM_MKRMT(__ATM_LM_ANALOG)
 struct atm_iobuf {
   int length;
-  void __user * buffer;
+  void * buffer;
 };
 #define ATM_CI_MAX - 1
 struct atm_cirange {

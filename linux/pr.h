@@ -16,8 +16,8 @@
  ***
  ****************************************************************************
  ****************************************************************************/
-#ifndef _UAPI_PR_H
-#define _UAPI_PR_H
+#ifndef _PR_H
+#define _PR_H
 #include <linux/types.h>
 enum pr_type {
   PR_WRITE_EXCLUSIVE = 1,

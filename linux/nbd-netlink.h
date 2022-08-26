@@ -16,8 +16,8 @@
  ***
  ****************************************************************************
  ****************************************************************************/
-#ifndef _UAPILINUX_NBD_NETLINK_H
-#define _UAPILINUX_NBD_NETLINK_H
+#ifndef LINUX_NBD_NETLINK_H
+#define LINUX_NBD_NETLINK_H
 #define NBD_GENL_FAMILY_NAME "nbd"
 #define NBD_GENL_VERSION 0x1
 #define NBD_GENL_MCAST_GROUP_NAME "nbd_mc_group"

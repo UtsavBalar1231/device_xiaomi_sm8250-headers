@@ -17,8 +17,8 @@
  ****************************************************************************
  ****************************************************************************/
 #include <linux/types.h>
-#ifndef _UAPI_PPP_DEFS_H_
-#define _UAPI_PPP_DEFS_H_
+#ifndef _PPP_DEFS_H_
+#define _PPP_DEFS_H_
 #define PPP_HDRLEN 4
 #define PPP_FCSLEN 2
 #define PPP_MRU 1500

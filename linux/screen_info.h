@@ -16,8 +16,8 @@
  ***
  ****************************************************************************
  ****************************************************************************/
-#ifndef _UAPI_SCREEN_INFO_H
-#define _UAPI_SCREEN_INFO_H
+#ifndef _SCREEN_INFO_H
+#define _SCREEN_INFO_H
 #include <linux/types.h>
 struct screen_info {
   __u8 orig_x;

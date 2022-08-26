@@ -16,10 +16,9 @@
  ***
  ****************************************************************************
  ****************************************************************************/
-#ifndef _UAPI_IPTABLES_H
-#define _UAPI_IPTABLES_H
+#ifndef _IPTABLES_H
+#define _IPTABLES_H
 #include <linux/types.h>
-#include <linux/compiler.h>
 #include <linux/if.h>
 #include <linux/netfilter_ipv4.h>
 #include <linux/netfilter/x_tables.h>
@@ -112,7 +111,7 @@ struct ipt_replace {
   unsigned int hook_entry[NF_INET_NUMHOOKS];
   unsigned int underflow[NF_INET_NUMHOOKS];
   unsigned int num_counters;
-  struct xt_counters __user * counters;
+  struct xt_counters * counters;
   struct ipt_entry entries[0];
 };
 struct ipt_get_entries {

@@ -16,8 +16,8 @@
  ***
  ****************************************************************************
  ****************************************************************************/
-#ifndef _UAPISDLA_H
-#define _UAPISDLA_H
+#ifndef SDLA_H
+#define SDLA_H
 #define SDLA_TYPES
 #define SDLA_S502A 5020
 #define SDLA_S502E 5021
@@ -44,7 +44,7 @@
 struct sdla_mem {
   int addr;
   int len;
-  void __user * data;
+  void * data;
 };
 #define SDLA_START (FRAD_LAST_IOCTL + 7)
 #define SDLA_STOP (FRAD_LAST_IOCTL + 8)

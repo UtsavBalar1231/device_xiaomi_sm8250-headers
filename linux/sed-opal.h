@@ -16,8 +16,8 @@
  ***
  ****************************************************************************
  ****************************************************************************/
-#ifndef _UAPI_SED_OPAL_H
-#define _UAPI_SED_OPAL_H
+#ifndef _SED_OPAL_H
+#define _SED_OPAL_H
 #include <linux/types.h>
 #define OPAL_KEY_MAX 256
 #define OPAL_MAX_LRS 9

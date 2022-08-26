@@ -16,8 +16,8 @@
  ***
  ****************************************************************************
  ****************************************************************************/
-#ifndef _UAPI__LINUX_USB_RAW_GADGET_H
-#define _UAPI__LINUX_USB_RAW_GADGET_H
+#ifndef __LINUX_USB_RAW_GADGET_H
+#define __LINUX_USB_RAW_GADGET_H
 #include <asm/ioctl.h>
 #include <linux/types.h>
 #include <linux/usb/ch9.h>

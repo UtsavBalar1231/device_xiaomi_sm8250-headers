@@ -16,8 +16,8 @@
  ***
  ****************************************************************************
  ****************************************************************************/
-#ifndef _UAPI_IF_TUNNEL_H_
-#define _UAPI_IF_TUNNEL_H_
+#ifndef _IF_TUNNEL_H_
+#define _IF_TUNNEL_H_
 #include <linux/types.h>
 #include <linux/if.h>
 #include <linux/ip.h>
@@ -142,7 +142,7 @@ enum {
   __IFLA_GRE_MAX,
 };
 #define IFLA_GRE_MAX (__IFLA_GRE_MAX - 1)
-#define VTI_ISVTI ((__force __be16) 0x0001)
+#define VTI_ISVTI ((__be16) 0x0001)
 enum {
   IFLA_VTI_UNSPEC,
   IFLA_VTI_LINK,

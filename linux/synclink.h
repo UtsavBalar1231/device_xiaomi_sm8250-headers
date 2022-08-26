@@ -16,8 +16,8 @@
  ***
  ****************************************************************************
  ****************************************************************************/
-#ifndef _UAPI_SYNCLINK_H_
-#define _UAPI_SYNCLINK_H_
+#ifndef _SYNCLINK_H_
+#define _SYNCLINK_H_
 #define SYNCLINK_H_VERSION 3.6
 #include <linux/types.h>
 #define BIT0 0x0001

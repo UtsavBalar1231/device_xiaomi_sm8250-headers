@@ -16,8 +16,8 @@
  ***
  ****************************************************************************
  ****************************************************************************/
-#ifndef _UAPI__ASM_GENERIC_SIGNAL_H
-#define _UAPI__ASM_GENERIC_SIGNAL_H
+#ifndef __ASM_GENERIC_SIGNAL_H
+#define __ASM_GENERIC_SIGNAL_H
 #include <linux/types.h>
 #define _KERNEL__NSIG 64
 #define _NSIG_BPW __BITS_PER_LONG
@@ -91,7 +91,7 @@ struct sigaction {
   sigset_t sa_mask;
 };
 typedef struct sigaltstack {
-  void __user * ss_sp;
+  void * ss_sp;
   int ss_flags;
   size_t ss_size;
 } stack_t;

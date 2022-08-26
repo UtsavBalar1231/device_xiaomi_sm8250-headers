@@ -16,8 +16,8 @@
  ***
  ****************************************************************************
  ****************************************************************************/
-#ifndef _UAPI_QCOTA_H
-#define _UAPI_QCOTA_H
+#ifndef _QCOTA_H
+#define _QCOTA_H
 #include <linux/types.h>
 #include <linux/ioctl.h>
 #define QCE_OTA_MAX_BEARER 31

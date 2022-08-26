@@ -16,8 +16,8 @@
  ***
  ****************************************************************************
  ****************************************************************************/
-#ifndef _UAPI_LINUX_REBOOT_H
-#define _UAPI_LINUX_REBOOT_H
+#ifndef _LINUX_REBOOT_H
+#define _LINUX_REBOOT_H
 #define LINUX_REBOOT_MAGIC1 0xfee1dead
 #define LINUX_REBOOT_MAGIC2 672274793
 #define LINUX_REBOOT_MAGIC2A 85072278

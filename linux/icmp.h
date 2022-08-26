@@ -16,8 +16,8 @@
  ***
  ****************************************************************************
  ****************************************************************************/
-#ifndef _UAPI_LINUX_ICMP_H
-#define _UAPI_LINUX_ICMP_H
+#ifndef _LINUX_ICMP_H
+#define _LINUX_ICMP_H
 #include <linux/types.h>
 #define ICMP_ECHOREPLY 0
 #define ICMP_DEST_UNREACH 3

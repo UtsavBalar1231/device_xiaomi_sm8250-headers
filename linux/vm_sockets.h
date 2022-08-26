@@ -16,8 +16,8 @@
  ***
  ****************************************************************************
  ****************************************************************************/
-#ifndef _UAPI_VM_SOCKETS_H
-#define _UAPI_VM_SOCKETS_H
+#ifndef _VM_SOCKETS_H
+#define _VM_SOCKETS_H
 #include <linux/socket.h>
 #define SO_VM_SOCKETS_BUFFER_SIZE 0
 #define SO_VM_SOCKETS_BUFFER_MIN_SIZE 1

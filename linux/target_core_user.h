@@ -32,7 +32,7 @@ struct tcmu_mailbox {
   __u32 cmdr_size;
   __u32 cmd_head;
   __u32 cmd_tail __attribute__((__aligned__(ALIGN_SIZE)));
-} __packed;
+} __attribute__((packed));
 enum tcmu_opcode {
   TCMU_OP_PAD = 0,
   TCMU_OP_CMD,
@@ -44,7 +44,7 @@ struct tcmu_cmd_entry_hdr {
 #define TCMU_UFLAG_UNKNOWN_OP 0x1
 #define TCMU_UFLAG_READ_LEN 0x2
   __u8 uflags;
-} __packed;
+} __attribute__((packed));
 #define TCMU_OP_MASK 0x7
 #define TCMU_SENSE_BUFFERSIZE 96
 struct tcmu_cmd_entry {
@@ -67,7 +67,7 @@ struct tcmu_cmd_entry {
       char sense_buffer[TCMU_SENSE_BUFFERSIZE];
     } rsp;
   };
-} __packed;
+} __attribute__((packed));
 #define TCMU_OP_ALIGN_SIZE sizeof(__u64)
 enum tcmu_genl_cmd {
   TCMU_CMD_UNSPEC,

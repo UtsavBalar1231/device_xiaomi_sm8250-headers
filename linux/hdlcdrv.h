@@ -16,8 +16,8 @@
  ***
  ****************************************************************************
  ****************************************************************************/
-#ifndef _UAPI_HDLCDRV_H
-#define _UAPI_HDLCDRV_H
+#ifndef _HDLCDRV_H
+#define _HDLCDRV_H
 struct hdlcdrv_params {
   int iobase;
   int irq;

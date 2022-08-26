@@ -16,10 +16,9 @@
  ***
  ****************************************************************************
  ****************************************************************************/
-#ifndef _UAPI_IP6_TABLES_H
-#define _UAPI_IP6_TABLES_H
+#ifndef _IP6_TABLES_H
+#define _IP6_TABLES_H
 #include <linux/types.h>
-#include <linux/compiler.h>
 #include <linux/if.h>
 #include <linux/netfilter_ipv6.h>
 #include <linux/netfilter/x_tables.h>
@@ -132,7 +131,7 @@ struct ip6t_replace {
   unsigned int hook_entry[NF_INET_NUMHOOKS];
   unsigned int underflow[NF_INET_NUMHOOKS];
   unsigned int num_counters;
-  struct xt_counters __user * counters;
+  struct xt_counters * counters;
   struct ip6t_entry entries[0];
 };
 struct ip6t_get_entries {

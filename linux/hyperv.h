@@ -16,8 +16,8 @@
  ***
  ****************************************************************************
  ****************************************************************************/
-#ifndef _UAPI_HYPERV_H
-#define _UAPI_HYPERV_H
+#ifndef _HYPERV_H
+#define _HYPERV_H
 #include <linux/uuid.h>
 #define UTIL_FW_MINOR 0
 #define UTIL_WS2K8_FW_MAJOR 1

@@ -16,8 +16,8 @@
  ***
  ****************************************************************************
  ****************************************************************************/
-#ifndef _UAPICN_PROC_H
-#define _UAPICN_PROC_H
+#ifndef CN_PROC_H
+#define CN_PROC_H
 #include <linux/types.h>
 enum proc_cn_mcast_op {
   PROC_CN_MCAST_LISTEN = 1,

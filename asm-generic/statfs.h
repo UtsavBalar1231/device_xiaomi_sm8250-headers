@@ -16,8 +16,8 @@
  ***
  ****************************************************************************
  ****************************************************************************/
-#ifndef _UAPI_GENERIC_STATFS_H
-#define _UAPI_GENERIC_STATFS_H
+#ifndef _GENERIC_STATFS_H
+#define _GENERIC_STATFS_H
 #include <linux/types.h>
 #ifndef __statfs_word
 #if __BITS_PER_LONG == 64

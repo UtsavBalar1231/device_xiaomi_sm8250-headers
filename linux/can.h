@@ -16,8 +16,8 @@
  ***
  ****************************************************************************
  ****************************************************************************/
-#ifndef _UAPI_CAN_H
-#define _UAPI_CAN_H
+#ifndef _CAN_H
+#define _CAN_H
 #include <linux/types.h>
 #include <linux/socket.h>
 #define CAN_EFF_FLAG 0x80000000U

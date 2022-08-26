@@ -157,7 +157,7 @@ struct ispif_cfg_data {
 };
 struct ispif_cfg_data_ext {
   enum ispif_cfg_type_t cfg_type;
-  void __user * data;
+  void * data;
   uint32_t size;
 };
 #define ISPIF_RDI_PACK_MODE_SUPPORT 1

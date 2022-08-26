@@ -16,8 +16,8 @@
  ***
  ****************************************************************************
  ****************************************************************************/
-#ifndef _UAPI_SPCOM_H_
-#define _UAPI_SPCOM_H_
+#ifndef _SPCOM_H_
+#define _SPCOM_H_
 #include <linux/types.h>
 #ifndef BIT
 #define BIT(x) (1 << x)
@@ -51,26 +51,26 @@ enum spcom_poll_events {
 struct spcom_user_command {
   enum spcom_cmd_id cmd_id;
   uint32_t arg;
-} __packed;
+} __attribute__((packed));
 struct spcom_send_command {
   enum spcom_cmd_id cmd_id;
   uint32_t timeout_msec;
   uint32_t buf_size;
   char buf[0];
-} __packed;
+} __attribute__((packed));
 struct spcom_user_create_channel_command {
   enum spcom_cmd_id cmd_id;
   char ch_name[SPCOM_CHANNEL_NAME_SIZE];
 #define SPCOM_IS_SHARABLE_SUPPORTED
   bool is_sharable;
-} __packed;
+} __attribute__((packed));
 #define SPCOM_USER_RESTART_SP_CMD
 struct spcom_user_restart_sp_command {
   enum spcom_cmd_id cmd_id;
   uint32_t arg;
 #define SPCOM_IS_UPDATED_SUPPORETED
   uint32_t is_updated;
-} __packed;
+} __attribute__((packed));
 #define SPCOM_MAX_ION_BUF 4
 struct spcom_ion_info {
   int32_t fd;
@@ -86,7 +86,7 @@ struct spcom_user_send_modified_command {
   uint32_t timeout_msec;
   uint32_t buf_size;
   char buf[0];
-} __packed;
+} __attribute__((packed));
 enum {
   SPCOM_IONFD_CMD,
   SPCOM_POLL_CMD,
@@ -99,7 +99,7 @@ struct spcom_poll_param {
   bool wait;
   enum spcom_poll_cmd_id cmd_id;
   int retval;
-} __packed;
+} __attribute__((packed));
 #define SPCOM_IOCTL_MAGIC 'S'
 #define SPCOM_GET_IONFD _IOR(SPCOM_IOCTL_MAGIC, SPCOM_IONFD_CMD, struct spcom_ion_handle)
 #define SPCOM_SET_IONFD _IOW(SPCOM_IOCTL_MAGIC, SPCOM_IONFD_CMD, struct spcom_ion_handle)

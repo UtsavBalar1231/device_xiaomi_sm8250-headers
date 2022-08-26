@@ -16,8 +16,8 @@
  ***
  ****************************************************************************
  ****************************************************************************/
-#ifndef _UAPI_LINUX_IPMI_BMC_H
-#define _UAPI_LINUX_IPMI_BMC_H
+#ifndef _LINUX_IPMI_BMC_H
+#define _LINUX_IPMI_BMC_H
 #include <linux/ioctl.h>
 #define __IPMI_BMC_IOCTL_MAGIC 0xB1
 #define IPMI_BMC_IOCTL_SET_SMS_ATN _IO(__IPMI_BMC_IOCTL_MAGIC, 0x00)

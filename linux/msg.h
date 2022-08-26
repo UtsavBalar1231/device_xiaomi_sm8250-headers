@@ -16,8 +16,8 @@
  ***
  ****************************************************************************
  ****************************************************************************/
-#ifndef _UAPI_LINUX_MSG_H
-#define _UAPI_LINUX_MSG_H
+#ifndef _LINUX_MSG_H
+#define _LINUX_MSG_H
 #include <linux/ipc.h>
 #define MSG_STAT 11
 #define MSG_INFO 12

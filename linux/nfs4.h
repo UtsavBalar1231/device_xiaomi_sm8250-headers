@@ -16,8 +16,8 @@
  ***
  ****************************************************************************
  ****************************************************************************/
-#ifndef _UAPI_LINUX_NFS4_H
-#define _UAPI_LINUX_NFS4_H
+#ifndef _LINUX_NFS4_H
+#define _LINUX_NFS4_H
 #include <linux/types.h>
 #define NFS4_BITMAP_SIZE 3
 #define NFS4_VERIFIER_SIZE 8

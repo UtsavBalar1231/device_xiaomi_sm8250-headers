@@ -16,8 +16,8 @@
  ***
  ****************************************************************************
  ****************************************************************************/
-#ifndef _UAPI_ROUTER_H
-#define _UAPI_ROUTER_H
+#ifndef _ROUTER_H
+#define _ROUTER_H
 enum wan_states {
   WAN_UNCONFIGURED,
   WAN_DISCONNECTED,

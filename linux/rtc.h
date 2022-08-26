@@ -16,8 +16,8 @@
  ***
  ****************************************************************************
  ****************************************************************************/
-#ifndef _UAPI_LINUX_RTC_H_
-#define _UAPI_LINUX_RTC_H_
+#ifndef _LINUX_RTC_H_
+#define _LINUX_RTC_H_
 struct rtc_time {
   int tm_sec;
   int tm_min;

@@ -16,8 +16,8 @@
  ***
  ****************************************************************************
  ****************************************************************************/
-#ifndef _UAPI__LINUX_BRIDGE_EFF_H
-#define _UAPI__LINUX_BRIDGE_EFF_H
+#ifndef __LINUX_BRIDGE_EFF_H
+#define __LINUX_BRIDGE_EFF_H
 #include <linux/types.h>
 #include <linux/if.h>
 #include <linux/netfilter_bridge.h>
@@ -42,10 +42,10 @@ struct ebt_replace {
   unsigned int valid_hooks;
   unsigned int nentries;
   unsigned int entries_size;
-  struct ebt_entries __user * hook_entry[NF_BR_NUMHOOKS];
+  struct ebt_entries * hook_entry[NF_BR_NUMHOOKS];
   unsigned int num_counters;
-  struct ebt_counter __user * counters;
-  char __user * entries;
+  struct ebt_counter * counters;
+  char * entries;
 };
 struct ebt_replace_kernel {
   char name[EBT_TABLE_MAXNAMELEN];

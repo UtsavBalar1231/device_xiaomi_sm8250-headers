@@ -233,7 +233,7 @@ struct csid_cfg_data {
 struct csiphy_cfg_data {
   enum csiphy_cfg_type_t cfgtype;
   union {
-    struct msm_camera_csiphy_params __user * csiphy_params;
+    struct msm_camera_csiphy_params * csiphy_params;
     struct msm_camera_csi_lane_params * csi_lane_params;
   } cfg;
 };
@@ -276,8 +276,8 @@ struct msm_ir_cut_cfg_data_t {
 };
 struct msm_laser_led_cfg_data_t {
   enum msm_laser_led_cfg_type_t cfg_type;
-  void __user * setting;
-  void __user * debug_reg;
+  void * setting;
+  void * debug_reg;
   uint32_t debug_reg_size;
   uint16_t i2c_addr;
   enum i2c_freq_mode_t i2c_freq_mode;
@@ -374,7 +374,7 @@ struct msm_ois_params_t {
   enum i2c_freq_mode_t i2c_freq_mode;
   enum msm_camera_i2c_reg_addr_type i2c_addr_type;
   enum msm_camera_i2c_data_type i2c_data_type;
-  struct reg_settings_ois_t __user * settings;
+  struct reg_settings_ois_t * settings;
 };
 struct msm_ois_set_info_t {
   struct msm_ois_params_t ois_params;
@@ -385,14 +385,14 @@ struct msm_actuator_move_params_t {
   int16_t dest_step_pos;
   int32_t num_steps;
   uint16_t curr_lens_pos;
-  struct damping_params_t __user * ringing_params;
+  struct damping_params_t * ringing_params;
 };
 struct msm_actuator_tuning_params_t {
   int16_t initial_code;
   uint16_t pwd_step;
   uint16_t region_size;
   uint32_t total_steps;
-  struct region_params_t __user * region_params;
+  struct region_params_t * region_params;
 };
 struct park_lens_data_t {
   uint32_t damping_step;
@@ -409,8 +409,8 @@ struct msm_actuator_params_t {
   enum i2c_freq_mode_t i2c_freq_mode;
   enum msm_camera_i2c_reg_addr_type i2c_addr_type;
   enum msm_camera_i2c_data_type i2c_data_type;
-  struct msm_actuator_reg_params_t __user * reg_tbl_params;
-  struct reg_settings_t __user * init_settings;
+  struct msm_actuator_reg_params_t * reg_tbl_params;
+  struct reg_settings_t * init_settings;
   struct park_lens_data_t park_lens;
 };
 struct msm_actuator_set_info_t {
@@ -492,8 +492,8 @@ struct msm_flash_init_info_t {
   enum msm_flash_driver_type flash_driver_type;
   uint32_t slave_addr;
   enum i2c_freq_mode_t i2c_freq_mode;
-  struct msm_sensor_power_setting_array __user * power_setting_array;
-  struct msm_camera_i2c_reg_setting_array __user * settings;
+  struct msm_sensor_power_setting_array * power_setting_array;
+  struct msm_camera_i2c_reg_setting_array * settings;
 };
 struct msm_flash_cfg_data_t {
   enum msm_flash_cfg_type_t cfg_type;
@@ -501,7 +501,7 @@ struct msm_flash_cfg_data_t {
   int32_t flash_duration[MAX_LED_TRIGGERS];
   union {
     struct msm_flash_init_info_t * flash_init_info;
-    struct msm_camera_i2c_reg_setting_array __user * settings;
+    struct msm_camera_i2c_reg_setting_array * settings;
   } cfg;
 };
 struct msm_flash_query_data_t {

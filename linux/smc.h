@@ -16,8 +16,8 @@
  ***
  ****************************************************************************
  ****************************************************************************/
-#ifndef _UAPI_LINUX_SMC_H_
-#define _UAPI_LINUX_SMC_H_
+#ifndef _LINUX_SMC_H_
+#define _LINUX_SMC_H_
 enum {
   SMC_PNETID_UNSPEC,
   SMC_PNETID_NAME,

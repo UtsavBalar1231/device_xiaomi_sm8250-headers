@@ -16,8 +16,8 @@
  ***
  ****************************************************************************
  ****************************************************************************/
-#ifndef _UAPI_NET_PPP_COMP_H
-#define _UAPI_NET_PPP_COMP_H
+#ifndef _NET_PPP_COMP_H
+#define _NET_PPP_COMP_H
 #define CCP_CONFREQ 1
 #define CCP_CONFACK 2
 #define CCP_TERMREQ 5

@@ -16,8 +16,8 @@
  ***
  ****************************************************************************
  ****************************************************************************/
-#ifndef _UAPI_LINUX_MEMBARRIER_H
-#define _UAPI_LINUX_MEMBARRIER_H
+#ifndef _LINUX_MEMBARRIER_H
+#define _LINUX_MEMBARRIER_H
 enum membarrier_cmd {
   MEMBARRIER_CMD_QUERY = 0,
   MEMBARRIER_CMD_GLOBAL = (1 << 0),

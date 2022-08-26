@@ -16,8 +16,8 @@
  ***
  ****************************************************************************
  ****************************************************************************/
-#ifndef _UAPI__LINUX_N_R3964_H__
-#define _UAPI__LINUX_N_R3964_H__
+#ifndef __LINUX_N_R3964_H__
+#define __LINUX_N_R3964_H__
 #define R3964_ENABLE_SIGNALS 0x5301
 #define R3964_SETPRIORITY 0x5302
 #define R3964_USE_BCC 0x5303

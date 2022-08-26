@@ -16,8 +16,8 @@
  ***
  ****************************************************************************
  ****************************************************************************/
-#ifndef _UAPI_LINUX_VIRTIO_RING_H
-#define _UAPI_LINUX_VIRTIO_RING_H
+#ifndef _LINUX_VIRTIO_RING_H
+#define _LINUX_VIRTIO_RING_H
 #include <stdint.h>
 #include <linux/types.h>
 #include <linux/virtio_types.h>

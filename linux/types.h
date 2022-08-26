@@ -16,8 +16,8 @@
  ***
  ****************************************************************************
  ****************************************************************************/
-#ifndef _UAPI_LINUX_TYPES_H
-#define _UAPI_LINUX_TYPES_H
+#ifndef _LINUX_TYPES_H
+#define _LINUX_TYPES_H
 #include <asm/types.h>
 #ifndef __ASSEMBLY__
 #include <linux/posix_types.h>

@@ -16,8 +16,8 @@
  ***
  ****************************************************************************
  ****************************************************************************/
-#ifndef _UAPI_LINUX_WAIT_H
-#define _UAPI_LINUX_WAIT_H
+#ifndef _LINUX_WAIT_H
+#define _LINUX_WAIT_H
 #define WNOHANG 0x00000001
 #define WUNTRACED 0x00000002
 #define WSTOPPED WUNTRACED

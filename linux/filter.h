@@ -16,9 +16,8 @@
  ***
  ****************************************************************************
  ****************************************************************************/
-#ifndef _UAPI__LINUX_FILTER_H__
-#define _UAPI__LINUX_FILTER_H__
-#include <linux/compiler.h>
+#ifndef __LINUX_FILTER_H__
+#define __LINUX_FILTER_H__
 #include <linux/types.h>
 #include <linux/bpf_common.h>
 #define BPF_MAJOR_VERSION 1
@@ -31,7 +30,7 @@ struct sock_filter {
 };
 struct sock_fprog {
   unsigned short len;
-  struct sock_filter __user * filter;
+  struct sock_filter * filter;
 };
 #define BPF_RVAL(code) ((code) & 0x18)
 #define BPF_A 0x10

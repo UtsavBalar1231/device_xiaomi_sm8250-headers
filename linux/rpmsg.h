@@ -16,8 +16,8 @@
  ***
  ****************************************************************************
  ****************************************************************************/
-#ifndef _UAPI_RPMSG_H_
-#define _UAPI_RPMSG_H_
+#ifndef _RPMSG_H_
+#define _RPMSG_H_
 #include <linux/ioctl.h>
 #include <linux/types.h>
 struct rpmsg_endpoint_info {

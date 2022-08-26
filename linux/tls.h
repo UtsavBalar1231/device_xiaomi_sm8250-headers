@@ -16,8 +16,8 @@
  ***
  ****************************************************************************
  ****************************************************************************/
-#ifndef _UAPI_LINUX_TLS_H
-#define _UAPI_LINUX_TLS_H
+#ifndef _LINUX_TLS_H
+#define _LINUX_TLS_H
 #include <linux/types.h>
 #define TLS_TX 1
 #define TLS_RX 2

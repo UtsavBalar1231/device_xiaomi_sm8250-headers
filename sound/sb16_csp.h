@@ -16,8 +16,8 @@
  ***
  ****************************************************************************
  ****************************************************************************/
-#ifndef _UAPI__SOUND_SB16_CSP_H
-#define _UAPI__SOUND_SB16_CSP_H
+#ifndef __SOUND_SB16_CSP_H
+#define __SOUND_SB16_CSP_H
 #define SNDRV_SB_CSP_MODE_NONE 0x00
 #define SNDRV_SB_CSP_MODE_DSP_READ 0x01
 #define SNDRV_SB_CSP_MODE_DSP_WRITE 0x02

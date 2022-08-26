@@ -16,8 +16,8 @@
  ***
  ****************************************************************************
  ****************************************************************************/
-#ifndef _UAPI_LINUX_AUXVEC_H
-#define _UAPI_LINUX_AUXVEC_H
+#ifndef _LINUX_AUXVEC_H
+#define _LINUX_AUXVEC_H
 #include <asm/auxvec.h>
 #define AT_NULL 0
 #define AT_IGNORE 1

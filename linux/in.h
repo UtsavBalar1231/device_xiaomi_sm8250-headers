@@ -16,8 +16,8 @@
  ***
  ****************************************************************************
  ****************************************************************************/
-#ifndef _UAPI_LINUX_IN_H
-#define _UAPI_LINUX_IN_H
+#ifndef _LINUX_IN_H
+#define _LINUX_IN_H
 #include <bits/ip_msfilter.h>
 #include <bits/ip_mreq_source.h>
 #include <bits/in_addr.h>

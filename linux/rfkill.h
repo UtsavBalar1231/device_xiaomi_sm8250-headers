@@ -16,8 +16,8 @@
  ***
  ****************************************************************************
  ****************************************************************************/
-#ifndef _UAPI__RFKILL_H
-#define _UAPI__RFKILL_H
+#ifndef __RFKILL_H
+#define __RFKILL_H
 #include <linux/types.h>
 #define RFKILL_STATE_SOFT_BLOCKED 0
 #define RFKILL_STATE_UNBLOCKED 1

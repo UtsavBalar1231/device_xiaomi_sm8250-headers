@@ -16,8 +16,8 @@
  ***
  ****************************************************************************
  ****************************************************************************/
-#ifndef _UAPI_LINUX_SERIAL_H
-#define _UAPI_LINUX_SERIAL_H
+#ifndef _LINUX_SERIAL_H
+#define _LINUX_SERIAL_H
 #include <linux/types.h>
 #include <linux/tty_flags.h>
 struct serial_struct {

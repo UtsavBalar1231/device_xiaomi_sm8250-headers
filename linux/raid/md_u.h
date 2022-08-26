@@ -16,8 +16,8 @@
  ***
  ****************************************************************************
  ****************************************************************************/
-#ifndef _UAPI_MD_U_H
-#define _UAPI_MD_U_H
+#ifndef _MD_U_H
+#define _MD_U_H
 #define MD_MAJOR_VERSION 0
 #define MD_MINOR_VERSION 90
 #define MD_PATCHLEVEL_VERSION 3

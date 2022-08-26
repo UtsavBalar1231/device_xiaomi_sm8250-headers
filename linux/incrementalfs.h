@@ -16,8 +16,8 @@
  ***
  ****************************************************************************
  ****************************************************************************/
-#ifndef _UAPI_LINUX_INCREMENTALFS_H
-#define _UAPI_LINUX_INCREMENTALFS_H
+#ifndef _LINUX_INCREMENTALFS_H
+#define _LINUX_INCREMENTALFS_H
 #include <linux/limits.h>
 #include <linux/ioctl.h>
 #include <linux/types.h>

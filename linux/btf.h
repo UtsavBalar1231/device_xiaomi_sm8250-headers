@@ -16,8 +16,8 @@
  ***
  ****************************************************************************
  ****************************************************************************/
-#ifndef _UAPI__LINUX_BTF_H__
-#define _UAPI__LINUX_BTF_H__
+#ifndef __LINUX_BTF_H__
+#define __LINUX_BTF_H__
 #include <linux/types.h>
 #define BTF_MAGIC 0xeB9F
 #define BTF_VERSION 1

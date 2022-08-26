@@ -16,8 +16,8 @@
  ***
  ****************************************************************************
  ****************************************************************************/
-#ifndef _UAPI_LINUX_NETCONF_H_
-#define _UAPI_LINUX_NETCONF_H_
+#ifndef _LINUX_NETCONF_H_
+#define _LINUX_NETCONF_H_
 #include <linux/types.h>
 #include <linux/netlink.h>
 struct netconfmsg {

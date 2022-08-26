@@ -16,8 +16,8 @@
  ***
  ****************************************************************************
  ****************************************************************************/
-#ifndef _UAPI_LINUX_FLAT_H
-#define _UAPI_LINUX_FLAT_H
+#ifndef _LINUX_FLAT_H
+#define _LINUX_FLAT_H
 #define FLAT_VERSION 0x00000004L
 #define MAX_SHARED_LIBS (1)
 struct flat_hdr {

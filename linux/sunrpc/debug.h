@@ -16,8 +16,8 @@
  ***
  ****************************************************************************
  ****************************************************************************/
-#ifndef _UAPI_LINUX_SUNRPC_DEBUG_H_
-#define _UAPI_LINUX_SUNRPC_DEBUG_H_
+#ifndef _LINUX_SUNRPC_DEBUG_H_
+#define _LINUX_SUNRPC_DEBUG_H_
 #define RPCDBG_XPRT 0x0001
 #define RPCDBG_CALL 0x0002
 #define RPCDBG_DEBUG 0x0004

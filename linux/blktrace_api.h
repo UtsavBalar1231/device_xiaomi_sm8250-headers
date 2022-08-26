@@ -16,8 +16,8 @@
  ***
  ****************************************************************************
  ****************************************************************************/
-#ifndef _UAPIBLKTRACE_H
-#define _UAPIBLKTRACE_H
+#ifndef BLKTRACE_H
+#define BLKTRACE_H
 #include <linux/types.h>
 enum blktrace_cat {
   BLK_TC_READ = 1 << 0,

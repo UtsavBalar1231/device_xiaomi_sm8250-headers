@@ -16,8 +16,8 @@
  ***
  ****************************************************************************
  ****************************************************************************/
-#ifndef _UAPI_IP_SET_H
-#define _UAPI_IP_SET_H
+#ifndef _IP_SET_H
+#define _IP_SET_H
 #include <linux/types.h>
 #define IPSET_PROTOCOL 6
 #define IPSET_MAXNAMELEN 32

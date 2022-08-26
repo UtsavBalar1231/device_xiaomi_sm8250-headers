@@ -16,8 +16,8 @@
  ***
  ****************************************************************************
  ****************************************************************************/
-#ifndef _UAPI_LINUX_IF_TEAM_H_
-#define _UAPI_LINUX_IF_TEAM_H_
+#ifndef _LINUX_IF_TEAM_H_
+#define _LINUX_IF_TEAM_H_
 #define TEAM_STRING_MAX_LEN 32
 enum {
   TEAM_CMD_NOOP,

@@ -16,8 +16,8 @@
  ***
  ****************************************************************************
  ****************************************************************************/
-#ifndef _UAPI__SOUND_USB_STREAM_H
-#define _UAPI__SOUND_USB_STREAM_H
+#ifndef __SOUND_USB_STREAM_H
+#define __SOUND_USB_STREAM_H
 #define USB_STREAM_INTERFACE_VERSION 2
 #define SNDRV_USB_STREAM_IOCTL_SET_PARAMS _IOW('H', 0x90, struct usb_stream_config)
 struct usb_stream_packet {

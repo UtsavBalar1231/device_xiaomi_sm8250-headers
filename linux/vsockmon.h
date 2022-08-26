@@ -16,8 +16,8 @@
  ***
  ****************************************************************************
  ****************************************************************************/
-#ifndef _UAPI_VSOCKMON_H
-#define _UAPI_VSOCKMON_H
+#ifndef _VSOCKMON_H
+#define _VSOCKMON_H
 #include <linux/virtio_vsock.h>
 struct af_vsockmon_hdr {
   __le64 src_cid;

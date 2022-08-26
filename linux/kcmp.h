@@ -16,8 +16,8 @@
  ***
  ****************************************************************************
  ****************************************************************************/
-#ifndef _UAPI_LINUX_KCMP_H
-#define _UAPI_LINUX_KCMP_H
+#ifndef _LINUX_KCMP_H
+#define _LINUX_KCMP_H
 #include <linux/types.h>
 enum kcmp_type {
   KCMP_FILE,

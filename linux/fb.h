@@ -16,8 +16,8 @@
  ***
  ****************************************************************************
  ****************************************************************************/
-#ifndef _UAPI_LINUX_FB_H
-#define _UAPI_LINUX_FB_H
+#ifndef _LINUX_FB_H
+#define _LINUX_FB_H
 #include <linux/types.h>
 #include <linux/i2c.h>
 #define FB_MAX 32

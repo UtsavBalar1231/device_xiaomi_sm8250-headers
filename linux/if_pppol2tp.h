@@ -16,8 +16,8 @@
  ***
  ****************************************************************************
  ****************************************************************************/
-#ifndef _UAPI__LINUX_IF_PPPOL2TP_H
-#define _UAPI__LINUX_IF_PPPOL2TP_H
+#ifndef __LINUX_IF_PPPOL2TP_H
+#define __LINUX_IF_PPPOL2TP_H
 #include <linux/types.h>
 #include <linux/in.h>
 #include <linux/in6.h>

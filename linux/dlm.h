@@ -16,8 +16,8 @@
  ***
  ****************************************************************************
  ****************************************************************************/
-#ifndef _UAPI__DLM_DOT_H__
-#define _UAPI__DLM_DOT_H__
+#ifndef __DLM_DOT_H__
+#define __DLM_DOT_H__
 #include <linux/dlmconstants.h>
 #include <linux/types.h>
 typedef void dlm_lockspace_t;

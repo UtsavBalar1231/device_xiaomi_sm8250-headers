@@ -16,8 +16,8 @@
  ***
  ****************************************************************************
  ****************************************************************************/
-#ifndef _UAPI_LINUX_IF_VLAN_H_
-#define _UAPI_LINUX_IF_VLAN_H_
+#ifndef _LINUX_IF_VLAN_H_
+#define _LINUX_IF_VLAN_H_
 enum vlan_ioctl_cmds {
   ADD_VLAN_CMD,
   DEL_VLAN_CMD,

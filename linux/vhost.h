@@ -19,7 +19,6 @@
 #ifndef _LINUX_VHOST_H
 #define _LINUX_VHOST_H
 #include <linux/types.h>
-#include <linux/compiler.h>
 #include <linux/ioctl.h>
 #include <linux/virtio_config.h>
 #include <linux/virtio_ring.h>

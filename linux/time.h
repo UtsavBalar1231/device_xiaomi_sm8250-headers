@@ -16,8 +16,8 @@
  ***
  ****************************************************************************
  ****************************************************************************/
-#ifndef _UAPI_LINUX_TIME_H
-#define _UAPI_LINUX_TIME_H
+#ifndef _LINUX_TIME_H
+#define _LINUX_TIME_H
 #include <linux/types.h>
 #ifndef _STRUCT_TIMESPEC
 #define _STRUCT_TIMESPEC

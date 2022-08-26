@@ -16,8 +16,8 @@
  ***
  ****************************************************************************
  ****************************************************************************/
-#ifndef _UAPI_INPUT_EVENT_CODES_H
-#define _UAPI_INPUT_EVENT_CODES_H
+#ifndef _INPUT_EVENT_CODES_H
+#define _INPUT_EVENT_CODES_H
 #define INPUT_PROP_POINTER 0x00
 #define INPUT_PROP_DIRECT 0x01
 #define INPUT_PROP_BUTTONPAD 0x02

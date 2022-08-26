@@ -1370,14 +1370,14 @@ struct msm_actuator_move_params_t {
   int8_t sign_dir;
   int16_t dest_step_pos;
   int32_t num_steps;
-  struct damping_params_t __user * ringing_params;
+  struct damping_params_t * ringing_params;
 };
 struct msm_actuator_tuning_params_t {
   int16_t initial_code;
   uint16_t pwd_step;
   uint16_t region_size;
   uint32_t total_steps;
-  struct region_params_t __user * region_params;
+  struct region_params_t * region_params;
 };
 struct msm_actuator_params_t {
   enum actuator_type act_type;
@@ -1387,8 +1387,8 @@ struct msm_actuator_params_t {
   uint32_t i2c_addr;
   enum msm_actuator_addr_type i2c_addr_type;
   enum msm_actuator_data_type i2c_data_type;
-  struct msm_actuator_reg_params_t __user * reg_tbl_params;
-  struct reg_settings_t __user * init_settings;
+  struct msm_actuator_reg_params_t * reg_tbl_params;
+  struct reg_settings_t * init_settings;
 };
 struct msm_actuator_set_info_t {
   struct msm_actuator_params_t actuator_params;
@@ -1622,7 +1622,7 @@ struct msm_camera_v4l2_ioctl_t {
   uint32_t id;
   uint32_t len;
   uint32_t trans_code;
-  void __user * ioctl_ptr;
+  void * ioctl_ptr;
 };
 struct msm_camera_vfe_params_t {
   uint32_t operation_mode;
@@ -1670,7 +1670,7 @@ struct msm_camera_irq_cfg {
   uint8_t irq_idx;
   uint8_t num_hwcore;
 };
-#define MSM_IRQROUTER_CFG_COMPIRQ _IOWR('V', BASE_VIDIOC_PRIVATE, void __user *)
+#define MSM_IRQROUTER_CFG_COMPIRQ _IOWR('V', BASE_VIDIOC_PRIVATE, void *)
 #define MAX_NUM_CPP_STRIPS 8
 enum msm_cpp_frame_type {
   MSM_CPP_OFFLINE_FRAME,

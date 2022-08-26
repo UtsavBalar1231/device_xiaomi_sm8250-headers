@@ -16,8 +16,8 @@
  ***
  ****************************************************************************
  ****************************************************************************/
-#ifndef _UAPI_LINUX_MMAN_H
-#define _UAPI_LINUX_MMAN_H
+#ifndef _LINUX_MMAN_H
+#define _LINUX_MMAN_H
 #include <asm/mman.h>
 #include <asm-generic/hugetlb_encode.h>
 #define MREMAP_MAYMOVE 1

@@ -16,8 +16,8 @@
  ***
  ****************************************************************************
  ****************************************************************************/
-#ifndef _UAPI_INPUT_H
-#define _UAPI_INPUT_H
+#ifndef _INPUT_H
+#define _INPUT_H
 #include <sys/time.h>
 #include <sys/ioctl.h>
 #include <sys/types.h>
@@ -172,7 +172,7 @@ struct ff_periodic_effect {
   __u16 phase;
   struct ff_envelope envelope;
   __u32 custom_len;
-  __s16 __user * custom_data;
+  __s16 * custom_data;
 };
 struct ff_rumble_effect {
   __u16 strong_magnitude;

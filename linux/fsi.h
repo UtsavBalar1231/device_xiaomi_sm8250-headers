@@ -16,8 +16,8 @@
  ***
  ****************************************************************************
  ****************************************************************************/
-#ifndef _UAPI_LINUX_FSI_H
-#define _UAPI_LINUX_FSI_H
+#ifndef _LINUX_FSI_H
+#define _LINUX_FSI_H
 #include <linux/types.h>
 #include <linux/ioctl.h>
 struct scom_access {

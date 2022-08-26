@@ -16,8 +16,8 @@
  ***
  ****************************************************************************
  ****************************************************************************/
-#ifndef _UAPI_LINUX_FOU_H
-#define _UAPI_LINUX_FOU_H
+#ifndef _LINUX_FOU_H
+#define _LINUX_FOU_H
 #define FOU_GENL_NAME "fou"
 #define FOU_GENL_VERSION 0x1
 enum {

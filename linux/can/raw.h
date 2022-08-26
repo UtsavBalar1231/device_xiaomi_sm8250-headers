@@ -16,8 +16,8 @@
  ***
  ****************************************************************************
  ****************************************************************************/
-#ifndef _UAPI_CAN_RAW_H
-#define _UAPI_CAN_RAW_H
+#ifndef _CAN_RAW_H
+#define _CAN_RAW_H
 #include <linux/can.h>
 #define SOL_CAN_RAW (SOL_CAN_BASE + CAN_RAW)
 enum {

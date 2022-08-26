@@ -16,9 +16,8 @@
  ***
  ****************************************************************************
  ****************************************************************************/
-#ifndef _UAPI_LINUX_SECCOMP_H
-#define _UAPI_LINUX_SECCOMP_H
-#include <linux/compiler.h>
+#ifndef _LINUX_SECCOMP_H
+#define _LINUX_SECCOMP_H
 #include <linux/types.h>
 #define SECCOMP_MODE_DISABLED 0
 #define SECCOMP_MODE_STRICT 1

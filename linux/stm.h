@@ -16,8 +16,8 @@
  ***
  ****************************************************************************
  ****************************************************************************/
-#ifndef _UAPI_LINUX_STM_H
-#define _UAPI_LINUX_STM_H
+#ifndef _LINUX_STM_H
+#define _LINUX_STM_H
 #include <linux/types.h>
 #define STP_MASTER_MAX 0xffff
 #define STP_CHANNEL_MAX 0xffff

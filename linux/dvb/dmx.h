@@ -16,8 +16,8 @@
  ***
  ****************************************************************************
  ****************************************************************************/
-#ifndef _UAPI_DVBDMX_H_
-#define _UAPI_DVBDMX_H_
+#ifndef _DVBDMX_H_
+#define _DVBDMX_H_
 #include <linux/types.h>
 #include <time.h>
 #define DMX_FILTER_SIZE 16

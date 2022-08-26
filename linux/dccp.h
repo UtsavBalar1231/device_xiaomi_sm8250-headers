@@ -16,8 +16,8 @@
  ***
  ****************************************************************************
  ****************************************************************************/
-#ifndef _UAPI_LINUX_DCCP_H
-#define _UAPI_LINUX_DCCP_H
+#ifndef _LINUX_DCCP_H
+#define _LINUX_DCCP_H
 #include <linux/types.h>
 #include <asm/byteorder.h>
 struct dccp_hdr {

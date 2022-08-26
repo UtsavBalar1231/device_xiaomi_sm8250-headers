@@ -16,8 +16,8 @@
  ***
  ****************************************************************************
  ****************************************************************************/
-#ifndef _UAPI_LINUX_SHM_H_
-#define _UAPI_LINUX_SHM_H_
+#ifndef _LINUX_SHM_H_
+#define _LINUX_SHM_H_
 #include <linux/ipc.h>
 #include <linux/errno.h>
 #include <asm-generic/hugetlb_encode.h>

@@ -16,8 +16,8 @@
  ***
  ****************************************************************************
  ****************************************************************************/
-#ifndef _UAPI_LINUX_STAT_H
-#define _UAPI_LINUX_STAT_H
+#ifndef _LINUX_STAT_H
+#define _LINUX_STAT_H
 #include <linux/types.h>
 #if !defined(__GLIBC__) || __GLIBC__ < 2
 #define S_IFMT 00170000

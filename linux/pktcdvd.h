@@ -16,8 +16,8 @@
  ***
  ****************************************************************************
  ****************************************************************************/
-#ifndef _UAPI__PKTCDVD_H
-#define _UAPI__PKTCDVD_H
+#ifndef __PKTCDVD_H
+#define __PKTCDVD_H
 #include <linux/types.h>
 #define PACKET_DEBUG 1
 #define MAX_WRITERS 8

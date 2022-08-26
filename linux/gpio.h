@@ -16,8 +16,8 @@
  ***
  ****************************************************************************
  ****************************************************************************/
-#ifndef _UAPI_GPIO_H_
-#define _UAPI_GPIO_H_
+#ifndef _GPIO_H_
+#define _GPIO_H_
 #include <linux/ioctl.h>
 #include <linux/types.h>
 struct gpiochip_info {

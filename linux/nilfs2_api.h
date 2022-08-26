@@ -36,7 +36,7 @@ enum {
   NILFS_CPINFO_SKETCH,
   NILFS_CPINFO_MINOR,
 };
-#define NILFS_CPINFO_FNS(flag,name) static inline int nilfs_cpinfo_ ##name(const struct nilfs_cpinfo * cpinfo) \
+#define NILFS_CPINFO_FNS(flag,name) static __inline__ int nilfs_cpinfo_ ##name(const struct nilfs_cpinfo * cpinfo) \
 { return ! ! (cpinfo->ci_flags & (1UL << NILFS_CPINFO_ ##flag)); \
 }
 struct nilfs_suinfo {
@@ -49,7 +49,7 @@ enum {
   NILFS_SUINFO_DIRTY,
   NILFS_SUINFO_ERROR,
 };
-#define NILFS_SUINFO_FNS(flag,name) static inline int nilfs_suinfo_ ##name(const struct nilfs_suinfo * si) \
+#define NILFS_SUINFO_FNS(flag,name) static __inline__ int nilfs_suinfo_ ##name(const struct nilfs_suinfo * si) \
 { return si->sui_flags & (1UL << NILFS_SUINFO_ ##flag); \
 }
 struct nilfs_suinfo_update {
@@ -64,11 +64,11 @@ enum {
   NILFS_SUINFO_UPDATE_FLAGS,
   __NR_NILFS_SUINFO_UPDATE_FIELDS,
 };
-#define NILFS_SUINFO_UPDATE_FNS(flag,name) static inline void nilfs_suinfo_update_set_ ##name(struct nilfs_suinfo_update * sup) \
+#define NILFS_SUINFO_UPDATE_FNS(flag,name) static __inline__ void nilfs_suinfo_update_set_ ##name(struct nilfs_suinfo_update * sup) \
 { sup->sup_flags |= 1UL << NILFS_SUINFO_UPDATE_ ##flag; \
-} static inline void nilfs_suinfo_update_clear_ ##name(struct nilfs_suinfo_update * sup) \
+} static __inline__ void nilfs_suinfo_update_clear_ ##name(struct nilfs_suinfo_update * sup) \
 { sup->sup_flags &= ~(1UL << NILFS_SUINFO_UPDATE_ ##flag); \
-} static inline int nilfs_suinfo_update_ ##name(const struct nilfs_suinfo_update * sup) \
+} static __inline__ int nilfs_suinfo_update_ ##name(const struct nilfs_suinfo_update * sup) \
 { return ! ! (sup->sup_flags & (1UL << NILFS_SUINFO_UPDATE_ ##flag)); \
 }
 enum {

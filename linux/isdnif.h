@@ -16,8 +16,8 @@
  ***
  ****************************************************************************
  ****************************************************************************/
-#ifndef _UAPI__ISDNIF_H__
-#define _UAPI__ISDNIF_H__
+#ifndef __ISDNIF_H__
+#define __ISDNIF_H__
 #define ISDN_PTYPE_UNKNOWN 0
 #define ISDN_PTYPE_1TR6 1
 #define ISDN_PTYPE_EURO 2

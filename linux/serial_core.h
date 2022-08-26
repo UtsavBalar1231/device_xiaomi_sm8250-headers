@@ -16,8 +16,8 @@
  ***
  ****************************************************************************
  ****************************************************************************/
-#ifndef _UAPILINUX_SERIAL_CORE_H
-#define _UAPILINUX_SERIAL_CORE_H
+#ifndef LINUX_SERIAL_CORE_H
+#define LINUX_SERIAL_CORE_H
 #include <linux/serial.h>
 #define PORT_UNKNOWN 0
 #define PORT_8250 1

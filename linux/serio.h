@@ -16,8 +16,8 @@
  ***
  ****************************************************************************
  ****************************************************************************/
-#ifndef _UAPI_SERIO_H
-#define _UAPI_SERIO_H
+#ifndef _SERIO_H
+#define _SERIO_H
 #include <linux/const.h>
 #include <linux/ioctl.h>
 #define SPIOCSTYPE _IOW('q', 0x01, unsigned long)

@@ -16,8 +16,8 @@
  ***
  ****************************************************************************
  ****************************************************************************/
-#ifndef _UAPI_NFCINFO_H_
-#define _UAPI_NFCINFO_H_
+#ifndef _NFCINFO_H_
+#define _NFCINFO_H_
 #include <linux/ioctl.h>
 #define NFCC_MAGIC 0xE9
 #define NFCC_GET_INFO _IOW(NFCC_MAGIC, 0x09, unsigned int)

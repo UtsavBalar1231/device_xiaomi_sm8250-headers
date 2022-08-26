@@ -16,8 +16,8 @@
  ***
  ****************************************************************************
  ****************************************************************************/
-#ifndef _UAPI_NF_CONNTRACK_SCTP_H
-#define _UAPI_NF_CONNTRACK_SCTP_H
+#ifndef _NF_CONNTRACK_SCTP_H
+#define _NF_CONNTRACK_SCTP_H
 #include <linux/netfilter/nf_conntrack_tuple_common.h>
 enum sctp_conntrack {
   SCTP_CONNTRACK_NONE,

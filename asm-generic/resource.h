@@ -16,8 +16,8 @@
  ***
  ****************************************************************************
  ****************************************************************************/
-#ifndef _UAPI_ASM_GENERIC_RESOURCE_H
-#define _UAPI_ASM_GENERIC_RESOURCE_H
+#ifndef _ASM_GENERIC_RESOURCE_H
+#define _ASM_GENERIC_RESOURCE_H
 #define RLIMIT_CPU 0
 #define RLIMIT_FSIZE 1
 #define RLIMIT_DATA 2
